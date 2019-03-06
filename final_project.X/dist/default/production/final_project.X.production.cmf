@@ -1,0 +1,1385 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+idloc IDLOC 0 200000 200000 8 1
+init CODE 0 58 58 4 1
+reset_vec CODE 0 0 0 4 1
+config CONFIG 0 300000 300000 E 1
+$dist/default/production\final_project.X.production.o
+intcodelo CODE 0 18 18 40 1
+cinit CODE 0 1946 1946 BE 1
+intcode_body CODE 0 15D0 15D0 11A 1
+text0 CODE 0 1C9E 1C9E 3E 1
+text1 CODE 0 1DA6 1DA6 1A 1
+text2 CODE 0 1324 1324 16C 1
+text3 CODE 0 972 972 2F6 1
+text4 CODE 0 1B90 1B90 46 1
+text5 CODE 0 110E 110E 216 1
+text6 CODE 0 1B2E 1B2E 62 1
+text7 CODE 0 EF0 EF0 21E 1
+text8 CODE 0 1BD6 1BD6 46 1
+text9 CODE 0 1D14 1D14 28 1
+text10 CODE 0 1D3C 1D3C 26 1
+text11 CODE 0 1A04 1A04 BA 1
+text12 CODE 0 620 620 352 1
+text13 CODE 0 C68 C68 288 1
+text14 CODE 0 1490 1490 140 1
+text15 CODE 0 16EA 16EA D0 1
+text16 CODE 0 1E00 1E00 E 1
+text17 CODE 0 1CDC 1CDC 38 1
+text18 CODE 0 1D62 1D62 22 1
+text19 CODE 0 1D84 1D84 22 1
+text20 CODE 0 1DC0 1DC0 1A 1
+text21 CODE 0 1E2E 1E2E 2 1
+text22 CODE 0 1DF0 1DF0 10 1
+text23 CODE 0 1E1A 1E1A 8 1
+text24 CODE 0 1E22 1E22 8 1
+text25 CODE 0 1E30 1E30 2 1
+text26 CODE 0 1DDA 1DDA 16 1
+text28 CODE 0 1C1C 1C1C 44 1
+text29 CODE 0 1ABE 1ABE 70 1
+text30 CODE 0 1E0E 1E0E C 1
+idataCOMRAM CODE 0 1E2A 1E2A 4 1
+cstackCOMRAM COMRAM 1 1 1 51 1
+cstackBANK0 BANK0 1 FE FE 1 1
+cstackBANK1 BANK1 1 1C4 1C4 C 1
+temp COMRAM 1 72 72 1 1
+bssBANK0 BANK0 1 80 80 40 1
+intcode CODE 0 8 8 6 1
+smallconst SMALLCONST 0 600 600 20 1
+idataBANK0 CODE 0 1C60 1C60 3E 1
+idataBANK1 CODE 0 1882 1882 C4 1
+idataBANK2 CODE 0 17BA 17BA C8 1
+dataBANK0 BANK0 1 C0 C0 3E 1
+dataBANK1 BANK1 1 100 100 C4 1
+dataBANK2 BANK2 1 200 200 C8 1
+dataCOMRAM COMRAM 1 6E 6E 4 1
+bssBIGRAM BIGRAM 1 2C8 2C8 1F4 1
+bssCOMRAM COMRAM 1 52 52 1C 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM FF-FF 1
+RAM 1D0-1FF 1
+RAM 4BC-5FF 1
+SFR F80-FFF 1
+BANK0 FF-FF 1
+BANK1 1D0-1FF 1
+BANK4 4BC-4FF 1
+BANK5 500-5FF 1
+CONST 4-7 1
+CONST E-17 1
+CONST 5C-5FF 1
+CONST 1E32-7FFF 1
+STACK 4BC-5FF 1
+SMALLCONST 1E32-7FFF 1
+CODE 4-7 1
+CODE E-17 1
+CODE 5C-5FF 1
+CODE 1E32-7FFF 1
+BIGRAM 73-7F 1
+BIGRAM FF-FF 1
+BIGRAM 1D0-1FF 1
+BIGRAM 4BC-5FF 1
+COMRAM 73-7F 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 1E32-7FFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\final_project.X.production.o
+18 intcodelo CODE >11:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/adc.c
+18 intcodelo CODE >75:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+2E intcodelo CODE >77:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+32 intcodelo CODE >79:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+36 intcodelo CODE >81:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+38 intcodelo CODE >82:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+3A intcodelo CODE >83:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+3C intcodelo CODE >86:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+40 intcodelo CODE >91:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+8 intcode CODE >317:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+8 intcode CODE >44:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+15D0 intcode_body CODE >317:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+15DA intcode_body CODE >319:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+15DE intcode_body CODE >320:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+15EA intcode_body CODE >321:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+15FA intcode_body CODE >322:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1602 intcode_body CODE >323:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+160A intcode_body CODE >324:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1612 intcode_body CODE >325:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1614 intcode_body CODE >326:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1616 intcode_body CODE >327:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1618 intcode_body CODE >330:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1620 intcode_body CODE >331:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1628 intcode_body CODE >332:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1640 intcode_body CODE >333:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1650 intcode_body CODE >334:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1656 intcode_body CODE >335:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1658 intcode_body CODE >336:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+165A intcode_body CODE >337:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+165C intcode_body CODE >340:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+165E intcode_body CODE >342:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1666 intcode_body CODE >345:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1668 intcode_body CODE >346:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+166A intcode_body CODE >349:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+166C intcode_body CODE >353:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1670 intcode_body CODE >356:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1678 intcode_body CODE >357:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+167A intcode_body CODE >359:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1682 intcode_body CODE >360:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+168E intcode_body CODE >361:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+169A intcode_body CODE >362:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+16A2 intcode_body CODE >367:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+16AC intcode_body CODE >369:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+16B8 intcode_body CODE >370:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+16C4 intcode_body CODE >371:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+16CC intcode_body CODE >373:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+16DC intcode_body CODE >375:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+16DE intcode_body CODE >377:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+16DE intcode_body CODE >396:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1E0E text30 CODE >40:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1E10 text30 CODE >42:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1E14 text30 CODE >43:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1E18 text30 CODE >44:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1ABE text29 CODE >7:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1ABE text29 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1AC2 text29 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1AC6 text29 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1ACE text29 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1AD2 text29 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1AD6 text29 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1ADE text29 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1AE6 text29 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1AEA text29 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1AEC text29 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1AF2 text29 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1AF4 text29 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1AF8 text29 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1B04 text29 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1B0C text29 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1B12 text29 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1B16 text29 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1B1C text29 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1B24 text29 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1B2C text29 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awmod.c
+1C1C text28 CODE >61:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1C1C text28 CODE >63:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1C2C text28 CODE >64:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1C3E text28 CODE >65:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1C42 text28 CODE >66:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1C5E text28 CODE >70:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1DDA text26 CODE >3:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/adc.c
+1DDA text26 CODE >4:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/adc.c
+1DDC text26 CODE >5:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/adc.c
+1DE0 text26 CODE >7:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/adc.c
+1DE2 text26 CODE >8:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/adc.c
+1DE6 text26 CODE >9:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/adc.c
+1DEA text26 CODE >10:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/adc.c
+1DEE text26 CODE >11:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/adc.c
+1E30 text25 CODE >3:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ccp1.c
+1E30 text25 CODE >10:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ccp1.c
+1E22 text24 CODE >3:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/interrupt_manager.c
+1E22 text24 CODE >5:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/interrupt_manager.c
+1E24 text24 CODE >6:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/interrupt_manager.c
+1E26 text24 CODE >7:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/interrupt_manager.c
+1E28 text24 CODE >8:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/interrupt_manager.c
+1E1A text23 CODE >96:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1E1A text23 CODE >98:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1E1C text23 CODE >99:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1E1E text23 CODE >100:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1E20 text23 CODE >103:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1DF0 text22 CODE >4:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/pwm.c
+1DF0 text22 CODE >7:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/pwm.c
+1DF4 text22 CODE >12:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/pwm.c
+1DF8 text22 CODE >15:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/pwm.c
+1DFA text22 CODE >17:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/pwm.c
+1DFE text22 CODE >18:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/pwm.c
+1E2E text21 CODE >3:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/tmr2.c
+1E2E text21 CODE >6:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/tmr2.c
+1DC0 text20 CODE >65:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1DC0 text20 CODE >67:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1DC2 text20 CODE >68:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1DC4 text20 CODE >70:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1DC6 text20 CODE >71:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1DC8 text20 CODE >73:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1DCA text20 CODE >74:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1DCC text20 CODE >75:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1DCE text20 CODE >76:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1DD0 text20 CODE >79:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1DD8 text20 CODE >80:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1D84 text19 CODE >7:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D84 text19 CODE >10:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D86 text19 CODE >11:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D88 text19 CODE >22:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D8A text19 CODE >23:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D8C text19 CODE >24:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D8E text19 CODE >25:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D92 text19 CODE >28:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D94 text19 CODE >29:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D96 text19 CODE >30:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D98 text19 CODE >31:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D9A text19 CODE >32:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D9C text19 CODE >34:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D9E text19 CODE >35:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1DA0 text19 CODE >36:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1DA2 text19 CODE >37:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1DA4 text19 CODE >38:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/uart.c
+1D62 text18 CODE >81:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1D62 text18 CODE >84:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1D66 text18 CODE >85:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1D6A text18 CODE >86:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1D6E text18 CODE >87:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1D72 text18 CODE >90:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1D76 text18 CODE >91:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1D7A text18 CODE >92:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1D7E text18 CODE >93:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1D82 text18 CODE >94:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/setting.c
+1CDC text17 CODE >10:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CDC text17 CODE >16:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CDE text17 CODE >17:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CE0 text17 CODE >18:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CE2 text17 CODE >19:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CE4 text17 CODE >21:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CE6 text17 CODE >22:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CE8 text17 CODE >23:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CEA text17 CODE >24:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CEC text17 CODE >25:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CEE text17 CODE >26:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CF0 text17 CODE >27:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CF2 text17 CODE >28:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CF4 text17 CODE >30:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CF6 text17 CODE >31:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CF8 text17 CODE >32:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CFA text17 CODE >33:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CFC text17 CODE >35:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1CFE text17 CODE >36:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1D00 text17 CODE >37:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1D02 text17 CODE >38:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1D10 text17 CODE >39:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1D12 text17 CODE >56:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1E00 text16 CODE >154:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1E00 text16 CODE >156:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1E02 text16 CODE >157:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1E0A text16 CODE >159:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1E0C text16 CODE >160:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+16EA text15 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+16EA text15 CODE >7:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+170E text15 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+171E text15 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+1742 text15 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+1752 text15 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+1756 text15 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+1768 text15 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+176C text15 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+177E text15 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+178E text15 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+179E text15 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+17B8 text15 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+1490 text14 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+1492 text14 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+149A text14 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+14CC text14 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+14CE text14 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+14CE text14 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+14DE text14 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+14EA text14 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+14FC text14 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+1500 text14 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+1502 text14 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+1504 text14 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+150E text14 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+1534 text14 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+1536 text14 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+1542 text14 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+154C text14 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+154C text14 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+1572 text14 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+1574 text14 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+157E text14 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+1588 text14 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+158A text14 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+158C text14 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+1590 text14 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+15B4 text14 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+15BC text14 CODE >42:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+15BE text14 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+15CE text14 CODE >44:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+C68 text13 CODE >11:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+C68 text13 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+C6E text13 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+C74 text13 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+C76 text13 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+C78 text13 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+C7E text13 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+C84 text13 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+C94 text13 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+C96 text13 CODE >42:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+C98 text13 CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CA8 text13 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CAE text13 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CB4 text13 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CB6 text13 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CB8 text13 CODE >56:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CBE text13 CODE >58:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CC4 text13 CODE >60:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CD4 text13 CODE >63:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CD6 text13 CODE >65:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CD8 text13 CODE >69:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CE8 text13 CODE >75:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+CF4 text13 CODE >76:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D04 text13 CODE >77:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D0C text13 CODE >78:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D10 text13 CODE >79:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D22 text13 CODE >83:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D28 text13 CODE >85:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D3A text13 CODE >89:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D54 text13 CODE >92:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D64 text13 CODE >93:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D74 text13 CODE >94:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D84 text13 CODE >96:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D88 text13 CODE >97:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D8A text13 CODE >100:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D90 text13 CODE >101:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+D9A text13 CODE >102:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DA4 text13 CODE >103:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DA6 text13 CODE >104:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DA8 text13 CODE >106:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DB2 text13 CODE >112:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DC6 text13 CODE >115:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DC8 text13 CODE >116:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DD8 text13 CODE >118:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DDA text13 CODE >97:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DDA text13 CODE >119:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DE0 text13 CODE >122:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DEC text13 CODE >123:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DF0 text13 CODE >128:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DFA text13 CODE >129:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DFC text13 CODE >130:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+DFE text13 CODE >132:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E08 text13 CODE >133:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E0E text13 CODE >127:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E12 text13 CODE >139:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E16 text13 CODE >140:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E1A text13 CODE >141:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E3E text13 CODE >142:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E42 text13 CODE >143:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E44 text13 CODE >144:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E44 text13 CODE >145:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E48 text13 CODE >149:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E48 text13 CODE >150:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E4E text13 CODE >151:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E5A text13 CODE >152:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E5E text13 CODE >153:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E88 text13 CODE >154:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E8C text13 CODE >159:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+E9A text13 CODE >160:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+EA0 text13 CODE >161:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+EB0 text13 CODE >165:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+EBE text13 CODE >166:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+EC6 text13 CODE >167:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+ED6 text13 CODE >169:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+EDA text13 CODE >173:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+EDE text13 CODE >175:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+EE2 text13 CODE >176:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+EE4 text13 CODE >177:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+EE6 text13 CODE >180:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+EE8 text13 CODE >182:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+620 text12 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+620 text12 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+626 text12 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+62C text12 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+62E text12 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+630 text12 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+636 text12 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+63C text12 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+64C text12 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+64E text12 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+650 text12 CODE >36:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+660 text12 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+666 text12 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+66C text12 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+66E text12 CODE >42:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+670 text12 CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+676 text12 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+67C text12 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+68C text12 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+68E text12 CODE >54:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+690 text12 CODE >57:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+6A0 text12 CODE >58:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+6A0 text12 CODE >65:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+6AC text12 CODE >66:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+6BE text12 CODE >95:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+6CA text12 CODE >96:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+6D4 text12 CODE >97:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+6DE text12 CODE >98:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+6EA text12 CODE >99:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+6F6 text12 CODE >100:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+702 text12 CODE >101:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+70E text12 CODE >102:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+71A text12 CODE >103:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+726 text12 CODE >104:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+734 text12 CODE >105:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+740 text12 CODE >106:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+750 text12 CODE >107:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+75C text12 CODE >108:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+76C text12 CODE >109:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+77A text12 CODE >110:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+786 text12 CODE >111:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+796 text12 CODE >112:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+7A2 text12 CODE >113:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+7B2 text12 CODE >114:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+7BE text12 CODE >115:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+7CE text12 CODE >116:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+7DA text12 CODE >117:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+804 text12 CODE >145:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+836 text12 CODE >146:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+844 text12 CODE >149:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+85E text12 CODE >152:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+860 text12 CODE >153:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+86A text12 CODE >154:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+86C text12 CODE >155:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+86E text12 CODE >157:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+878 text12 CODE >158:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+87E text12 CODE >152:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+882 text12 CODE >163:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+886 text12 CODE >164:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+88A text12 CODE >165:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+8AE text12 CODE >166:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+8B2 text12 CODE >167:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+8B4 text12 CODE >168:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+8B4 text12 CODE >169:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+8B8 text12 CODE >173:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+8B8 text12 CODE >174:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+8BE text12 CODE >175:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+8CA text12 CODE >176:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+8CE text12 CODE >177:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+8F8 text12 CODE >178:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+8FC text12 CODE >183:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+90A text12 CODE >184:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+91A text12 CODE >187:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+928 text12 CODE >188:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+938 text12 CODE >190:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+93C text12 CODE >191:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+93E text12 CODE >192:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+93E text12 CODE >194:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+942 text12 CODE >195:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+952 text12 CODE >196:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+954 text12 CODE >197:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+956 text12 CODE >199:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+95C text12 CODE >201:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+960 text12 CODE >203:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+970 text12 CODE >205:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+1A04 text11 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A04 text11 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A10 text11 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A22 text11 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A48 text11 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A4A text11 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A5A text11 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A5E text11 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A62 text11 CODE >54:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A6C text11 CODE >57:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A7C text11 CODE >60:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A84 text11 CODE >63:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A8E text11 CODE >64:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A90 text11 CODE >62:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A96 text11 CODE >67:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1A9C text11 CODE >68:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1AAC text11 CODE >69:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1ABC text11 CODE >70:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+1D3C text10 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+1D3C text10 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+1D48 text10 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+1D50 text10 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+1D58 text10 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+1D60 text10 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+1D14 text9 CODE >143:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1D14 text9 CODE >147:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1D18 text9 CODE >148:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1D34 text9 CODE >150:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1D36 text9 CODE >151:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1BD6 text8 CODE >58:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1BD6 text8 CODE >59:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1C12 text8 CODE >60:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1C1A text8 CODE >61:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+EF0 text7 CODE >68:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+EF0 text7 CODE >75:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+EF2 text7 CODE >76:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+EF4 text7 CODE >77:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+F14 text7 CODE >78:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+F34 text7 CODE >79:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+F54 text7 CODE >80:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+F74 text7 CODE >81:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+F94 text7 CODE >82:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+FB4 text7 CODE >83:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+FD4 text7 CODE >84:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+FF4 text7 CODE >85:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+FF6 text7 CODE >87:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+FFA text7 CODE >88:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+FFC text7 CODE >90:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+FFE text7 CODE >91:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1000 text7 CODE >92:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1020 text7 CODE >93:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1040 text7 CODE >94:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1060 text7 CODE >95:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1080 text7 CODE >96:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+10A0 text7 CODE >97:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+10C0 text7 CODE >98:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+10E0 text7 CODE >99:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1100 text7 CODE >100:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1102 text7 CODE >102:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+110A text7 CODE >104:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+110C text7 CODE >105:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1B2E text6 CODE >63:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1B2E text6 CODE >64:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1B50 text6 CODE >65:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1B8E text6 CODE >66:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+110E text5 CODE >107:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+110E text5 CODE >109:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1122 text5 CODE >113:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+112A text5 CODE >115:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+114A text5 CODE >117:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1166 text5 CODE >118:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+116E text5 CODE >119:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1170 text5 CODE >121:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1184 text5 CODE >122:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+11AE text5 CODE >124:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+11B6 text5 CODE >125:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1200 text5 CODE >126:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1238 text5 CODE >127:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1270 text5 CODE >128:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+12A8 text5 CODE >129:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+12CC text5 CODE >130:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+12E4 text5 CODE >132:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+130A text5 CODE >133:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1322 text5 CODE >134:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1B90 text4 CODE >137:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1B90 text4 CODE >138:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1B98 text4 CODE >139:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1BBC text4 CODE >140:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1BD4 text4 CODE >141:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+972 text3 CODE >156:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+972 text3 CODE >158:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+9A6 text3 CODE >870:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+9D2 text3 CODE >871:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+9FE text3 CODE >873:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+A42 text3 CODE >874:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+A56 text3 CODE >875:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+A82 text3 CODE >876:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+AC6 text3 CODE >877:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+ADA text3 CODE >878:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+B06 text3 CODE >879:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+B4A text3 CODE >880:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+B5E text3 CODE >882:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+B8A text3 CODE >884:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+BCE text3 CODE >885:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+BE2 text3 CODE >886:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+C0E text3 CODE >887:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+C52 text3 CODE >888:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+C66 text3 CODE >891:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\setting_hardaware/ym2413.c
+1324 text2 CODE >214:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1324 text2 CODE >216:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1326 text2 CODE >219:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1328 text2 CODE >220:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+132A text2 CODE >221:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+132E text2 CODE >222:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1330 text2 CODE >223:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1338 text2 CODE >228:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1342 text2 CODE >238:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1346 text2 CODE >239:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+134A text2 CODE >240:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1352 text2 CODE >241:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1354 text2 CODE >242:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+135C text2 CODE >243:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1364 text2 CODE >244:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1366 text2 CODE >245:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+137A text2 CODE >246:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+13EA text2 CODE >248:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+143A text2 CODE >249:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1444 text2 CODE >250:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+144C text2 CODE >264:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1472 text2 CODE >271:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+147C text2 CODE >273:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DA6 text1 CODE >197:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DA6 text1 CODE >198:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DA8 text1 CODE >199:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DAA text1 CODE >200:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DAC text1 CODE >201:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DAE text1 CODE >202:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DB0 text1 CODE >203:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DB2 text1 CODE >204:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DB4 text1 CODE >205:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DB6 text1 CODE >206:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DB8 text1 CODE >207:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DBA text1 CODE >208:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DBC text1 CODE >209:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1DBE text1 CODE >211:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1C9E text0 CODE >279:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1C9E text0 CODE >281:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CA2 text0 CODE >282:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CA4 text0 CODE >283:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CA6 text0 CODE >284:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CAA text0 CODE >285:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CAC text0 CODE >286:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CAE text0 CODE >287:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CB0 text0 CODE >288:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CB2 text0 CODE >289:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CB4 text0 CODE >290:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CBC text0 CODE >291:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CC0 text0 CODE >292:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CC8 text0 CODE >293:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CCA text0 CODE >294:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CCE text0 CODE >295:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CD2 text0 CODE >297:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1CD6 text0 CODE >300:C:\Users\Kobe\Desktop\ym2413\final_project.X\final_project.X\main.c
+1946 cinit CODE >3515:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1946 cinit CODE >3517:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1946 cinit CODE >3520:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1946 cinit CODE >3749:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1948 cinit CODE >3750:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+194A cinit CODE >3751:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+194C cinit CODE >3752:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+194E cinit CODE >3753:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1950 cinit CODE >3754:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1952 cinit CODE >3755:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1956 cinit CODE >3756:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+195A cinit CODE >3757:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+195A cinit CODE >3758:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+195C cinit CODE >3759:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1960 cinit CODE >3760:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1962 cinit CODE >3761:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1964 cinit CODE >3762:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1966 cinit CODE >3766:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1968 cinit CODE >3767:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+196A cinit CODE >3768:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+196C cinit CODE >3769:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+196E cinit CODE >3770:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1970 cinit CODE >3771:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1972 cinit CODE >3772:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1976 cinit CODE >3773:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+197A cinit CODE >3774:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+197A cinit CODE >3775:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+197C cinit CODE >3776:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1980 cinit CODE >3777:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1982 cinit CODE >3778:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1984 cinit CODE >3779:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1986 cinit CODE >3783:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1988 cinit CODE >3784:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+198A cinit CODE >3785:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+198C cinit CODE >3786:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+198E cinit CODE >3787:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1990 cinit CODE >3788:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1992 cinit CODE >3789:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1996 cinit CODE >3790:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+199A cinit CODE >3791:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+199A cinit CODE >3792:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+199C cinit CODE >3793:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19A0 cinit CODE >3794:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19A2 cinit CODE >3795:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19A4 cinit CODE >3796:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19A6 cinit CODE >3800:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19A8 cinit CODE >3801:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19AA cinit CODE >3802:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19AC cinit CODE >3803:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19AE cinit CODE >3804:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19B0 cinit CODE >3805:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19B2 cinit CODE >3806:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19B6 cinit CODE >3807:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19BA cinit CODE >3808:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19BA cinit CODE >3809:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19BC cinit CODE >3810:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19C0 cinit CODE >3811:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19C2 cinit CODE >3812:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19C4 cinit CODE >3813:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19C6 cinit CODE >3817:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19CA cinit CODE >3818:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19CE cinit CODE >3819:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19CE cinit CODE >3820:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19D0 cinit CODE >3821:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19D2 cinit CODE >3822:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19D4 cinit CODE >3823:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19D6 cinit CODE >3824:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19D8 cinit CODE >3825:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19DA cinit CODE >3828:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19DE cinit CODE >3829:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19E0 cinit CODE >3830:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19E0 cinit CODE >3831:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19E2 cinit CODE >3832:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19E4 cinit CODE >3833:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19E6 cinit CODE >3836:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19EA cinit CODE >3837:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19EC cinit CODE >3838:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19EC cinit CODE >3839:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19EE cinit CODE >3840:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19F0 cinit CODE >3841:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19F2 cinit CODE >3847:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19F2 cinit CODE >3849:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19F4 cinit CODE >3850:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19F6 cinit CODE >3852:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19F8 cinit CODE >3853:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19FA cinit CODE >3854:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19FC cinit CODE >3855:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+19FE cinit CODE >3856:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+1A00 cinit CODE >3857:C:\Users\Kobe\AppData\Local\Temp\s5e0.
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_music_duty 96 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+_i 58 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+_x 6E 0 COMRAM 1 dataCOMRAM dist/default/production\final_project.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\final_project.X.production.o
+__LdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production\final_project.X.production.o
+__LdataBANK2 0 0 ABS 0 dataBANK2 dist/default/production\final_project.X.production.o
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\final_project.X.production.o
+__Hspace_0 30000E 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hspace_1 4BC 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__end_of_Hi_ISR 16EA 0 CODE 0 intcode_body dist/default/production\final_project.X.production.o
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\final_project.X.production.o
+__HidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production\final_project.X.production.o
+__HidataBANK2 0 0 ABS 0 idataBANK2 dist/default/production\final_project.X.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\final_project.X.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+__end_of_CCP1_Initialize 1E32 0 CODE 0 text25 dist/default/production\final_project.X.production.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\final_project.X.production.o
+_music_index 98 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+__end_of_INTERRUPT_Initialize 1E2A 0 CODE 0 text24 dist/default/production\final_project.X.production.o
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_rm 2C8 0 BIGRAM 1 bssBIGRAM dist/default/production\final_project.X.production.o
+__end_of_Lo_ISR 58 0 CODE 0 intcodelo dist/default/production\final_project.X.production.o
+_max_cnt2 FC 0 BANK0 1 dataBANK0 dist/default/production\final_project.X.production.o
+_YM2413Write EF0 0 CODE 0 text7 dist/default/production\final_project.X.production.o
+__Lsmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\final_project.X.production.o
+_ADFM 7E07 0 ABS 0 - dist/default/production\final_project.X.production.o
+_CREN 7D5C 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATD F8C 0 ABS 0 - dist/default/production\final_project.X.production.o
+_RCIF 7CF5 0 ABS 0 - dist/default/production\final_project.X.production.o
+_TMR0 FD6 0 ABS 0 - dist/default/production\final_project.X.production.o
+_TMR1 FCE 0 ABS 0 - dist/default/production\final_project.X.production.o
+_TMR3 FB2 0 ABS 0 - dist/default/production\final_project.X.production.o
+_Time 68 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+_Xmas 162 0 BANK1 1 dataBANK1 dist/default/production\final_project.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+_cnt2 B4 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+_main 1C9E 0 CODE 0 text0 dist/default/production\final_project.X.production.o
+_past 8A 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+_turn 70 0 COMRAM 1 dataCOMRAM dist/default/production\final_project.X.production.o
+btemp 72 0 COMRAM 1 temp dist/default/production\final_project.X.production.o
+playNote@oct 29 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+playNote@vol 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_tmr_cnt 5A 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+__HbssBIGRAM 0 0 ABS 0 bssBIGRAM dist/default/production\final_project.X.production.o
+start 58 0 CODE 0 init C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+___flmul@aexp 42 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___flmul@bexp 47 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___flmul@prod 48 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___flmul@sign 41 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___flmul@temp 4C 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__size_of___awmod 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of___fldiv 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of___flmul 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of___fltol 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\final_project.X.production.o
+_blink_mode AA 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+?___wmul E 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\final_project.X.production.o
+__LidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production\final_project.X.production.o
+__LidataBANK2 0 0 ABS 0 idataBANK2 dist/default/production\final_project.X.production.o
+__end_of_Trigger_Pulse_10us 1E0E 0 CODE 0 text16 dist/default/production\final_project.X.production.o
+__size_of_stopNote 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hpowerup 58 0 CODE 0 powerup dist/default/production\final_project.X.production.o
+_TIMER3_Initialize 1DC0 0 CODE 0 text20 dist/default/production\final_project.X.production.o
+___awmod@sign 8 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_T0CONbits FD5 0 ABS 0 - dist/default/production\final_project.X.production.o
+ttemp5 73 0 COMRAM 1 temp dist/default/production\final_project.X.production.o
+ttemp6 76 0 COMRAM 1 temp dist/default/production\final_project.X.production.o
+ttemp7 7A 0 COMRAM 1 temp dist/default/production\final_project.X.production.o
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\final_project.X.production.o
+__LbssBIGRAM 0 0 ABS 0 bssBIGRAM dist/default/production\final_project.X.production.o
+__accesstop 80 0 ABS 0 - C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+intlevel0 0 0 CODE 0 text C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+intlevel1 0 0 CODE 0 text C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+intlevel2 0 0 CODE 0 text C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+intlevel3 0 0 CODE 0 text C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\final_project.X.production.o
+__size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_MyusartRead 1C1C 0 CODE 0 text28 dist/default/production\final_project.X.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\final_project.X.production.o
+_CCP1_Initialize 1E30 0 CODE 0 text25 dist/default/production\final_project.X.production.o
+wtemp8 73 0 COMRAM 1 temp dist/default/production\final_project.X.production.o
+__CFG_EBTR0$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_EBTR2$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_waitXmas 100 0 BANK1 1 dataBANK1 dist/default/production\final_project.X.production.o
+_UART_Write 1E0E 0 CODE 0 text30 dist/default/production\final_project.X.production.o
+__CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__end_of_YAMAHA 1D14 0 CODE 0 text17 dist/default/production\final_project.X.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\final_project.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\final_project.X.production.o
+__pidataCOMRAM 1E2A 0 CODE 0 idataCOMRAM dist/default/production\final_project.X.production.o
+_detect1 1324 0 CODE 0 text2 dist/default/production\final_project.X.production.o
+___wmul@multiplicand 10 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_Trigger_Pulse_10us 1E00 0 CODE 0 text16 dist/default/production\final_project.X.production.o
+_ADCON1 FC1 0 ABS 0 - dist/default/production\final_project.X.production.o
+_ADRESH FC4 0 ABS 0 - dist/default/production\final_project.X.production.o
+_ADRESL FC3 0 ABS 0 - dist/default/production\final_project.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\final_project.X.production.o
+_CCPR1L FBE 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\final_project.X.production.o
+_Distance2 92 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+__end_of___flge 17BA 0 CODE 0 text15 dist/default/production\final_project.X.production.o
+__end_of___wmul 1D62 0 CODE 0 text10 dist/default/production\final_project.X.production.o
+_stopNote 1B90 0 CODE 0 text4 dist/default/production\final_project.X.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\final_project.X.production.o
+_mystring B6 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+_BAUDCONbits FB8 0 ABS 0 - dist/default/production\final_project.X.production.o
+___fldiv@aexp 34 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___fldiv@bexp 33 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___fldiv@sign 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\final_project.X.production.o
+__Hintcodelo 58 0 CODE 0 intcodelo dist/default/production\final_project.X.production.o
+__end_of___awmod 1B2E 0 CODE 0 text29 dist/default/production\final_project.X.production.o
+__end_of___fldiv EF0 0 CODE 0 text13 dist/default/production\final_project.X.production.o
+__end_of___flmul 972 0 CODE 0 text12 dist/default/production\final_project.X.production.o
+__end_of___fltol 1ABE 0 CODE 0 text11 dist/default/production\final_project.X.production.o
+__end_of_stopNote 1BD6 0 CODE 0 text4 dist/default/production\final_project.X.production.o
+_Hi_ISR 8 0 CODE 0 intcode dist/default/production\final_project.X.production.o
+playNote@channel 25 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+playNote@instrument 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__end_of_UART_Write 1E1A 0 CODE 0 text30 dist/default/production\final_project.X.production.o
+__size_of_canon 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+canon@main_instrument 1C6 0 BANK1 1 cstackBANK1 dist/default/production\final_project.X.production.o
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\final_project.X.production.o
+___fldiv@a 20 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___fldiv@b 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___flmul@a 39 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___flmul@b 35 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_Lo_ISR 18 0 CODE 0 intcodelo dist/default/production\final_project.X.production.o
+_INTCON2bits FF1 0 ABS 0 - dist/default/production\final_project.X.production.o
+_INTCON3bits FF0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Lintcodelo 18 0 CODE 0 intcodelo dist/default/production\final_project.X.production.o
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+start_initialization 1946 0 CODE 0 cinit dist/default/production\final_project.X.production.o
+__CFG_PBADEN$ON 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\final_project.X.production.o
+_numUnit A4 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+?_modifyBit 18 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_TRISAbits F92 0 ABS 0 - dist/default/production\final_project.X.production.o
+_TRISBbits F93 0 ABS 0 - dist/default/production\final_project.X.production.o
+_TRISCbits F94 0 ABS 0 - dist/default/production\final_project.X.production.o
+_TRISDbits F95 0 ABS 0 - dist/default/production\final_project.X.production.o
+_TRISEbits F96 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of_CCP1_Initialize 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+get_bits@n E 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production\final_project.X.production.o
+__end_of_SYSTEM_Initialize 1D84 0 CODE 0 text18 dist/default/production\final_project.X.production.o
+__pcstackBANK0 FE 0 BANK0 1 cstackBANK0 dist/default/production\final_project.X.production.o
+__pcstackBANK1 1C4 0 BANK1 1 cstackBANK1 dist/default/production\final_project.X.production.o
+_IPR1bits F9F 0 ABS 0 - dist/default/production\final_project.X.production.o
+_IPR2bits FA2 0 ABS 0 - dist/default/production\final_project.X.production.o
+__end_of_UART_Initialize 1DA6 0 CODE 0 text19 dist/default/production\final_project.X.production.o
+_TMR1IF 7CF0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_TMR1ON 7E68 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of_Hi_ISR 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\final_project.X.production.o
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\final_project.X.production.o
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\final_project.X.production.o
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\final_project.X.production.o
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\final_project.X.production.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\final_project.X.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production\final_project.X.production.o
+__Hconst 0 0 CONST 0 const dist/default/production\final_project.X.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production\final_project.X.production.o
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/production\final_project.X.production.o
+__size_of_Lo_ISR 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\final_project.X.production.o
+_YAMAHA 1CDC 0 CODE 0 text17 dist/default/production\final_project.X.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\final_project.X.production.o
+__size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\final_project.X.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production\final_project.X.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production\final_project.X.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production\final_project.X.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production\final_project.X.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production\final_project.X.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production\final_project.X.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production\final_project.X.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\final_project.X.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\final_project.X.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\final_project.X.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\final_project.X.production.o
+__size_of_PWM_Initialize 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of___xxtofl 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\final_project.X.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production\final_project.X.production.o
+__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+___xxtofl@arg 18 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___xxtofl@exp 17 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___xxtofl@val E 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_half_cycle 5E 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+__Hcomram 0 0 ABS 0 comram dist/default/production\final_project.X.production.o
+__Hconfig 30000E 0 CONFIG 0 config dist/default/production\final_project.X.production.o
+__CFG_LPT1OSC$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\final_project.X.production.o
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\final_project.X.production.o
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\final_project.X.production.o
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\final_project.X.production.o
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\final_project.X.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\final_project.X.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production\final_project.X.production.o
+__Lconst 0 0 CONST 0 const dist/default/production\final_project.X.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production\final_project.X.production.o
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/production\final_project.X.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\final_project.X.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\final_project.X.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\final_project.X.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production\final_project.X.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production\final_project.X.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production\final_project.X.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production\final_project.X.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production\final_project.X.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production\final_project.X.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production\final_project.X.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\final_project.X.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\final_project.X.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\final_project.X.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\final_project.X.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\final_project.X.production.o
+__end_of_YM2413Write 110E 0 CODE 0 text7 dist/default/production\final_project.X.production.o
+___flmul@grs 43 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\final_project.X.production.o
+_PORTBbits F81 0 ABS 0 - dist/default/production\final_project.X.production.o
+_INTCONbits FF2 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_OSC$INTIO67 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_INTERRUPT_Initialize 1E22 0 CODE 0 text24 dist/default/production\final_project.X.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production\final_project.X.production.o
+__Hdata 0 0 ABS 0 data dist/default/production\final_project.X.production.o
+__Hinit 5C 0 CODE 0 init dist/default/production\final_project.X.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\final_project.X.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\final_project.X.production.o
+__Htemp 73 0 COMRAM 1 temp dist/default/production\final_project.X.production.o
+__Htext 0 0 ABS 0 text dist/default/production\final_project.X.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production\final_project.X.production.o
+__Ldata 0 0 ABS 0 data dist/default/production\final_project.X.production.o
+__Linit 58 0 CODE 0 init dist/default/production\final_project.X.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\final_project.X.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\final_project.X.production.o
+__Ltemp 72 0 COMRAM 1 temp dist/default/production\final_project.X.production.o
+__Ltext 0 0 ABS 0 text dist/default/production\final_project.X.production.o
+__CFG_XINST$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+___flge 16EA 0 CODE 0 text15 dist/default/production\final_project.X.production.o
+___wmul 1D3C 0 CODE 0 text10 dist/default/production\final_project.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\final_project.X.production.o
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\final_project.X.production.o
+_UART_Initialize 1D84 0 CODE 0 text19 dist/default/production\final_project.X.production.o
+int$flags 72 0 COMRAM 1 temp dist/default/production\final_project.X.production.o
+_fnumbers D8 0 BANK0 1 dataBANK0 dist/default/production\final_project.X.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\final_project.X.production.o
+__Hintret 0 0 ABS 0 intret dist/default/production\final_project.X.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production\final_project.X.production.o
+_PR2 FCB 0 ABS 0 - dist/default/production\final_project.X.production.o
+_RC0 7C10 0 ABS 0 - dist/default/production\final_project.X.production.o
+_RC2 7C12 0 ABS 0 - dist/default/production\final_project.X.production.o
+_RC3 7C13 0 ABS 0 - dist/default/production\final_project.X.production.o
+_RC7 7C17 0 ABS 0 - dist/default/production\final_project.X.production.o
+__S0 30000E 0 ABS 0 - dist/default/production\final_project.X.production.o
+__S1 4BC 0 ABS 0 - dist/default/production\final_project.X.production.o
+__S2 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_bee 264 0 BANK2 1 dataBANK2 dist/default/production\final_project.X.production.o
+_cnt 56 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+_str 80 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+__size_of_TIMER2_Initialize 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of_YAMAHA 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\final_project.X.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\final_project.X.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\final_project.X.production.o
+_SYSTEM_Initialize 1D62 0 CODE 0 text18 dist/default/production\final_project.X.production.o
+___xxtofl 1490 0 CODE 0 text14 dist/default/production\final_project.X.production.o
+__end_of_MyusartRead 1C60 0 CODE 0 text28 dist/default/production\final_project.X.production.o
+int_func 15D0 0 CODE 0 intcode_body dist/default/production\final_project.X.production.o
+__CFG_CCP2MX$PORTC 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of_Trigger_Pulse_10us 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Lintentry 0 0 ABS 0 intentry dist/default/production\final_project.X.production.o
+__size_of_get_bits 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hramtop 600 0 RAM 0 ramtop dist/default/production\final_project.X.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\final_project.X.production.o
+__end_of___xxtofl 15D0 0 CODE 0 text14 dist/default/production\final_project.X.production.o
+__pdataBANK0 C0 0 BANK0 1 dataBANK0 dist/default/production\final_project.X.production.o
+__pdataBANK1 100 0 BANK1 1 dataBANK1 dist/default/production\final_project.X.production.o
+__pdataBANK2 200 0 BANK2 1 dataBANK2 dist/default/production\final_project.X.production.o
+__activetblptr 1 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\final_project.X.production.o
+__size_of___flge 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of___wmul 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_blink_cnt A8 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\final_project.X.production.o
+detect1@ring 1CE 0 BANK1 1 cstackBANK1 dist/default/production\final_project.X.production.o
+_Distance 52 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production\final_project.X.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production\final_project.X.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production\final_project.X.production.o
+__Htext13 0 0 ABS 0 text13 dist/default/production\final_project.X.production.o
+__Htext14 0 0 ABS 0 text14 dist/default/production\final_project.X.production.o
+__Htext15 0 0 ABS 0 text15 dist/default/production\final_project.X.production.o
+__Htext16 0 0 ABS 0 text16 dist/default/production\final_project.X.production.o
+__Htext17 0 0 ABS 0 text17 dist/default/production\final_project.X.production.o
+__Htext18 0 0 ABS 0 text18 dist/default/production\final_project.X.production.o
+__Htext19 0 0 ABS 0 text19 dist/default/production\final_project.X.production.o
+__Htext20 0 0 ABS 0 text20 dist/default/production\final_project.X.production.o
+__Htext21 0 0 ABS 0 text21 dist/default/production\final_project.X.production.o
+__Htext22 0 0 ABS 0 text22 dist/default/production\final_project.X.production.o
+__Htext23 0 0 ABS 0 text23 dist/default/production\final_project.X.production.o
+__Htext24 0 0 ABS 0 text24 dist/default/production\final_project.X.production.o
+__Htext25 0 0 ABS 0 text25 dist/default/production\final_project.X.production.o
+__Htext26 0 0 ABS 0 text26 dist/default/production\final_project.X.production.o
+__Htext28 0 0 ABS 0 text28 dist/default/production\final_project.X.production.o
+__Htext29 0 0 ABS 0 text29 dist/default/production\final_project.X.production.o
+__Htext30 0 0 ABS 0 text30 dist/default/production\final_project.X.production.o
+_ADC_Initialize 1DDA 0 CODE 0 text26 dist/default/production\final_project.X.production.o
+_lenStr 6A 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+___awmod@counter 7 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_RCSTAbits FAB 0 ABS 0 - dist/default/production\final_project.X.production.o
+_PIE1bits F9D 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of_UART_Write 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+stopNote@yB20 29 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__ptext10 1D3C 0 CODE 0 text10 dist/default/production\final_project.X.production.o
+__ptext11 1A04 0 CODE 0 text11 dist/default/production\final_project.X.production.o
+__ptext12 620 0 CODE 0 text12 dist/default/production\final_project.X.production.o
+__ptext13 C68 0 CODE 0 text13 dist/default/production\final_project.X.production.o
+__ptext14 1490 0 CODE 0 text14 dist/default/production\final_project.X.production.o
+__ptext15 16EA 0 CODE 0 text15 dist/default/production\final_project.X.production.o
+__ptext16 1E00 0 CODE 0 text16 dist/default/production\final_project.X.production.o
+__ptext17 1CDC 0 CODE 0 text17 dist/default/production\final_project.X.production.o
+__ptext18 1D62 0 CODE 0 text18 dist/default/production\final_project.X.production.o
+__ptext19 1D84 0 CODE 0 text19 dist/default/production\final_project.X.production.o
+__ptext20 1DC0 0 CODE 0 text20 dist/default/production\final_project.X.production.o
+__ptext21 1E2E 0 CODE 0 text21 dist/default/production\final_project.X.production.o
+__ptext22 1DF0 0 CODE 0 text22 dist/default/production\final_project.X.production.o
+__ptext23 1E1A 0 CODE 0 text23 dist/default/production\final_project.X.production.o
+__ptext24 1E22 0 CODE 0 text24 dist/default/production\final_project.X.production.o
+__ptext25 1E30 0 CODE 0 text25 dist/default/production\final_project.X.production.o
+__ptext26 1DDA 0 CODE 0 text26 dist/default/production\final_project.X.production.o
+__ptext28 1C1C 0 CODE 0 text28 dist/default/production\final_project.X.production.o
+__ptext29 1ABE 0 CODE 0 text29 dist/default/production\final_project.X.production.o
+__ptext30 1E0E 0 CODE 0 text30 dist/default/production\final_project.X.production.o
+_numLed A2 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+___awmod 1ABE 0 CODE 0 text29 dist/default/production\final_project.X.production.o
+___fldiv C68 0 CODE 0 text13 dist/default/production\final_project.X.production.o
+___flmul 620 0 CODE 0 text12 dist/default/production\final_project.X.production.o
+___fltol 1A04 0 CODE 0 text11 dist/default/production\final_project.X.production.o
+_lightUp A0 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+__pintcode_body 15D0 0 CODE 0 intcode_body dist/default/production\final_project.X.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\final_project.X.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production\final_project.X.production.o
+__CFG_BORV$3 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of_detect1 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+canon@bpm 1C8 0 BANK1 1 cstackBANK1 dist/default/production\final_project.X.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production\final_project.X.production.o
+__Lconfig 300000 0 CONFIG 0 config dist/default/production\final_project.X.production.o
+__CFG_IESO$ON 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+___wmul@multiplier E 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_LATAbits F89 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATCbits F8B 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATDbits F8C 0 ABS 0 - dist/default/production\final_project.X.production.o
+___fldiv@grs 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___fldiv@rem 28 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_record 62 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+modifyBit@b 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+modifyBit@n 18 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+modifyBit@p 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+canon@base_instrument 1C4 0 BANK1 1 cstackBANK1 dist/default/production\final_project.X.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\final_project.X.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\final_project.X.production.o
+__size_of_UART_Initialize 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+___fldiv@new_exp 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+stackhi 5FF 0 ABS 0 - C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+stacklo 4BC 0 ABS 0 - C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+__Lintcode 8 0 CODE 0 intcode dist/default/production\final_project.X.production.o
+_get_bits 1BD6 0 CODE 0 text8 dist/default/production\final_project.X.production.o
+__Lintret 0 0 ABS 0 intret dist/default/production\final_project.X.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production\final_project.X.production.o
+_ADCON0bits FC2 0 ABS 0 - dist/default/production\final_project.X.production.o
+_ADCON2bits FC0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__size_of_TIMER3_Initialize 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__pbssBIGRAM 2C8 0 BIGRAM 1 bssBIGRAM dist/default/production\final_project.X.production.o
+_breath_flag 9C 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+YM2413Write@data 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__pbssCOMRAM 52 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+__end_of_ADC_Initialize 1DF0 0 CODE 0 text26 dist/default/production\final_project.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\final_project.X.production.o
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\final_project.X.production.o
+___flge@ff1 E 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___flge@ff2 12 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__end_of_get_bits 1C1C 0 CODE 0 text8 dist/default/production\final_project.X.production.o
+delay_ms@x 3F 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_backHome 9E 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+_PIR1bits F9E 0 ABS 0 - dist/default/production\final_project.X.production.o
+_PIR2bits FA1 0 ABS 0 - dist/default/production\final_project.X.production.o
+_rm_header 60 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+__size_of_delay_ms 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\final_project.X.production.o
+___fltol@exp1 3E 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__size_of_YM2413Write 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+end_of_initialization 19F2 0 CODE 0 cinit dist/default/production\final_project.X.production.o
+__end_of_TIMER2_Initialize 1E30 0 CODE 0 text21 dist/default/production\final_project.X.production.o
+_sevenSetting 1DA6 0 CODE 0 text1 dist/default/production\final_project.X.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\final_project.X.production.o
+__Hintentry 0 0 ABS 0 intentry dist/default/production\final_project.X.production.o
+get_bits@result 16 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_RCONbits FD0 0 ABS 0 - dist/default/production\final_project.X.production.o
+modifyBit@mask 23 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_auto_flag B0 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+?___awmod 3 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__end_of_modifyBit 1B90 0 CODE 0 text6 dist/default/production\final_project.X.production.o
+?___fldiv 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+?___flmul 35 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+?___fltol 35 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+get_bits@target 10 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\final_project.X.production.o
+__size_of_modifyBit 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\final_project.X.production.o
+___awmod@dividend 3 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__Lramtop 600 0 RAM 0 ramtop dist/default/production\final_project.X.production.o
+playNote@i 35 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\final_project.X.production.o
+_turnCount 64 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+__pcinit 1946 0 CODE 0 cinit dist/default/production\final_project.X.production.o
+__ptext0 1C9E 0 CODE 0 text0 dist/default/production\final_project.X.production.o
+__ptext1 1DA6 0 CODE 0 text1 dist/default/production\final_project.X.production.o
+__ptext2 1324 0 CODE 0 text2 dist/default/production\final_project.X.production.o
+__ptext3 972 0 CODE 0 text3 dist/default/production\final_project.X.production.o
+__ptext4 1B90 0 CODE 0 text4 dist/default/production\final_project.X.production.o
+__ptext5 110E 0 CODE 0 text5 dist/default/production\final_project.X.production.o
+__ptext6 1B2E 0 CODE 0 text6 dist/default/production\final_project.X.production.o
+__ptext7 EF0 0 CODE 0 text7 dist/default/production\final_project.X.production.o
+__ptext8 1BD6 0 CODE 0 text8 dist/default/production\final_project.X.production.o
+__ptext9 1D14 0 CODE 0 text9 dist/default/production\final_project.X.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\final_project.X.production.o
+_past_cnt AC 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production\final_project.X.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production\final_project.X.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production\final_project.X.production.o
+__Ltext13 0 0 ABS 0 text13 dist/default/production\final_project.X.production.o
+__Ltext14 0 0 ABS 0 text14 dist/default/production\final_project.X.production.o
+__Ltext15 0 0 ABS 0 text15 dist/default/production\final_project.X.production.o
+__Ltext16 0 0 ABS 0 text16 dist/default/production\final_project.X.production.o
+__Ltext17 0 0 ABS 0 text17 dist/default/production\final_project.X.production.o
+__Ltext18 0 0 ABS 0 text18 dist/default/production\final_project.X.production.o
+__Ltext19 0 0 ABS 0 text19 dist/default/production\final_project.X.production.o
+__Ltext20 0 0 ABS 0 text20 dist/default/production\final_project.X.production.o
+__Ltext21 0 0 ABS 0 text21 dist/default/production\final_project.X.production.o
+__Ltext22 0 0 ABS 0 text22 dist/default/production\final_project.X.production.o
+__Ltext23 0 0 ABS 0 text23 dist/default/production\final_project.X.production.o
+__Ltext24 0 0 ABS 0 text24 dist/default/production\final_project.X.production.o
+__Ltext25 0 0 ABS 0 text25 dist/default/production\final_project.X.production.o
+__Ltext26 0 0 ABS 0 text26 dist/default/production\final_project.X.production.o
+__Ltext28 0 0 ABS 0 text28 dist/default/production\final_project.X.production.o
+__Ltext29 0 0 ABS 0 text29 dist/default/production\final_project.X.production.o
+__Ltext30 0 0 ABS 0 text30 dist/default/production\final_project.X.production.o
+__ramtop 600 0 RAM 0 ramtop C:\Users\Kobe\AppData\Local\Temp\s5e0.o
+__Lpowerup 58 0 CODE 0 powerup dist/default/production\final_project.X.production.o
+?___xxtofl E 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+UART_Write@data 3 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\final_project.X.production.o
+_modifyBit 1B2E 0 CODE 0 text6 dist/default/production\final_project.X.production.o
+__size_of_playNote 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+___fltol@sign1 3D 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__psmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\final_project.X.production.o
+__size_of_MyusartRead 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__end_of_detect1 1490 0 CODE 0 text2 dist/default/production\final_project.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\final_project.X.production.o
+canon@time 4E 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__size_of_sevenSetting 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+___fltol@f1 35 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+___param_bank 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_WDT$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_WDTPS$1 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\final_project.X.production.o
+__end_of__initialization 19F2 0 CODE 0 cinit dist/default/production\final_project.X.production.o
+___awmod@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__CFG_WRT0$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_WRT1$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_WRT2$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_delay_ms 1D14 0 CODE 0 text9 dist/default/production\final_project.X.production.o
+__CFG_WRT3$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\final_project.X.production.o
+__CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_WRTD$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_music_cnt 9A 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+_max_cnt A6 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+_waitBee 200 0 BANK2 1 dataBANK2 dist/default/production\final_project.X.production.o
+__pidataBANK0 1C60 0 CODE 0 idataBANK0 dist/default/production\final_project.X.production.o
+__pidataBANK1 1882 0 CODE 0 idataBANK1 dist/default/production\final_project.X.production.o
+__pidataBANK2 17BA 0 CODE 0 idataBANK2 dist/default/production\final_project.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\final_project.X.production.o
+showPace@F3090 F0 0 BANK0 1 dataBANK0 dist/default/production\final_project.X.production.o
+_PWM_Initialize 1DF0 0 CODE 0 text22 dist/default/production\final_project.X.production.o
+__end_of_delay_ms 1D3C 0 CODE 0 text9 dist/default/production\final_project.X.production.o
+__CFG_PWRT$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__pintcodelo 18 0 CODE 0 intcodelo dist/default/production\final_project.X.production.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_TXSTAbits FAC 0 ABS 0 - dist/default/production\final_project.X.production.o
+_T3CONbits FB1 0 ABS 0 - dist/default/production\final_project.X.production.o
+__end_of_sevenSetting 1DC0 0 CODE 0 text1 dist/default/production\final_project.X.production.o
+stopNote@sustain 27 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__CFG_BOREN$SBORDIS 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+playNote@noteNumber 33 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__end_of_main 1CDC 0 CODE 0 text0 dist/default/production\final_project.X.production.o
+__pintcode 8 0 CODE 0 intcode dist/default/production\final_project.X.production.o
+_TIMER2_Initialize 1E2E 0 CODE 0 text21 dist/default/production\final_project.X.production.o
+__end_of_canon C68 0 CODE 0 text3 dist/default/production\final_project.X.production.o
+_IRCF0 7E9C 0 ABS 0 - dist/default/production\final_project.X.production.o
+_IRCF1 7E9D 0 ABS 0 - dist/default/production\final_project.X.production.o
+_IRCF2 7E9E 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATA0 7C48 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATA1 7C49 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATA2 7C4A 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATA3 7C4B 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATB2 7C52 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATB3 7C53 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATB4 7C54 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATC3 7C5B 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATD5 7C65 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATD6 7C66 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATD7 7C67 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATE0 7C68 0 ABS 0 - dist/default/production\final_project.X.production.o
+_LATE1 7C69 0 ABS 0 - dist/default/production\final_project.X.production.o
+_RCREG FAE 0 ABS 0 - dist/default/production\final_project.X.production.o
+_SPBRG FAF 0 ABS 0 - dist/default/production\final_project.X.production.o
+_T0CON FD5 0 ABS 0 - dist/default/production\final_project.X.production.o
+_T1CON FCD 0 ABS 0 - dist/default/production\final_project.X.production.o
+_T2CON FCA 0 ABS 0 - dist/default/production\final_project.X.production.o
+_TRISA F92 0 ABS 0 - dist/default/production\final_project.X.production.o
+_TRISD F95 0 ABS 0 - dist/default/production\final_project.X.production.o
+_TXREG FAD 0 ABS 0 - dist/default/production\final_project.X.production.o
+_Time2 66 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+__CFG_CP0$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_CP1$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__end_of_TIMER3_Initialize 1DDA 0 CODE 0 text20 dist/default/production\final_project.X.production.o
+__HRAM 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production\final_project.X.production.o
+__Hram 0 0 ABS 0 ram dist/default/production\final_project.X.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production\final_project.X.production.o
+__LRAM 1 0 ABS 0 - dist/default/production\final_project.X.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production\final_project.X.production.o
+__Lram 0 0 ABS 0 ram dist/default/production\final_project.X.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production\final_project.X.production.o
+__CFG_CP2$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_CP3$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_canon 972 0 CODE 0 text3 dist/default/production\final_project.X.production.o
+_dummy 6D 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+_index 5C 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+_mflag 6C 0 COMRAM 1 bssCOMRAM dist/default/production\final_project.X.production.o
+_notes C0 0 BANK0 1 dataBANK0 dist/default/production\final_project.X.production.o
+__CFG_CPB$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+_playNote 110E 0 CODE 0 text5 dist/default/production\final_project.X.production.o
+_value AE 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+_CCP1CON FBD 0 ABS 0 - dist/default/production\final_project.X.production.o
+_clk_cnt B2 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+?_get_bits E 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\final_project.X.production.o
+__HdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production\final_project.X.production.o
+__HdataBANK2 0 0 ABS 0 dataBANK2 dist/default/production\final_project.X.production.o
+__end_of_OSCILLATOR_Initialize 1E22 0 CODE 0 text23 dist/default/production\final_project.X.production.o
+YM2413Write@address 18 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__initialization 1946 0 CODE 0 cinit dist/default/production\final_project.X.production.o
+__end_of_playNote 1324 0 CODE 0 text5 dist/default/production\final_project.X.production.o
+___xxtofl@sign 16 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__pbssBANK0 80 0 BANK0 1 bssBANK0 dist/default/production\final_project.X.production.o
+__pdataCOMRAM 6E 0 COMRAM 1 dataCOMRAM dist/default/production\final_project.X.production.o
+stopNote@channel 25 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\final_project.X.production.o
+___wmul@product 12 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+__Hsmallconst 620 0 SMALLCONST 0 smallconst dist/default/production\final_project.X.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\final_project.X.production.o
+__end_of_PWM_Initialize 1E00 0 CODE 0 text22 dist/default/production\final_project.X.production.o
+_CCP1CONbits FBD 0 ABS 0 - dist/default/production\final_project.X.production.o
+_max_past_cnt FA 0 BANK0 1 dataBANK0 dist/default/production\final_project.X.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\final_project.X.production.o
+__Hintcode E 0 CODE 0 intcode dist/default/production\final_project.X.production.o
+__size_of_INTERRUPT_Initialize 0 0 ABS 0 - dist/default/production\final_project.X.production.o
+playNote@note 27 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+playNote@yB20 37 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+playNote@yB30 31 0 COMRAM 1 cstackCOMRAM dist/default/production\final_project.X.production.o
+_OSCILLATOR_Initialize 1E1A 0 CODE 0 text23 dist/default/production\final_project.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+intcodelo 0 18 18 44 1
+idloc 0 200000 200000 8 1
+text12 0 620 620 1812 1
+cstackCOMRAM 1 1 1 72 1
+reset_vec 0 0 0 4 1
+bssBANK0 1 80 80 7F 1
+intcode 0 8 8 6 1
+smallconst 0 600 600 20 1
+dataBANK1 1 100 100 D0 1
+dataBANK2 1 200 200 C8 1
+bssBIGRAM 1 2C8 2C8 1F4 1
+config 0 300000 300000 E 1

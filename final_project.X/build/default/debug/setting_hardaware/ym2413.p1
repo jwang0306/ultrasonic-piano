@@ -1,0 +1,3189 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1710 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1710:     struct {
+[s S67 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S67 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+"1720
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1720:     struct {
+[s S68 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S68 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"1709
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1709: typedef union {
+[u S66 `S67 1 `S68 1 ]
+[n S66 . . . ]
+"1731
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1731: extern volatile TRISBbits_t TRISBbits __attribute__((address(0xF93)));
+[v _TRISBbits `VS66 ~T0 @X0 0 e@3987 ]
+"2154
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2154:     struct {
+[s S79 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S79 . TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
+"2164
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2164:     struct {
+[s S80 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S80 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"2153
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2153: typedef union {
+[u S78 `S79 1 `S80 1 ]
+[n S78 . . . ]
+"2175
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2175: extern volatile TRISDbits_t TRISDbits __attribute__((address(0xF95)));
+[v _TRISDbits `VS78 ~T0 @X0 0 e@3989 ]
+"1488
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1488:     struct {
+[s S61 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S61 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 TRISA7 ]
+"1498
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1498:     struct {
+[s S62 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S62 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"1487
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1487: typedef union {
+[u S60 `S61 1 `S62 1 ]
+[n S60 . . . ]
+"1509
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1509: extern volatile TRISAbits_t TRISAbits __attribute__((address(0xF92)));
+[v _TRISAbits `VS60 ~T0 @X0 0 e@3986 ]
+"2376
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2376:     struct {
+[s S85 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S85 . TRISE0 TRISE1 TRISE2 . PSPMODE IBOV OBF IBF ]
+"2386
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2386:     struct {
+[s S86 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S86 . RE0 RE1 RE2 RE3 ]
+"2375
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2375: typedef union {
+[u S84 `S85 1 `S86 1 ]
+[n S84 . . . ]
+"2393
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2393: extern volatile TRISEbits_t TRISEbits __attribute__((address(0xF96)));
+[v _TRISEbits `VS84 ~T0 @X0 0 e@3990 ]
+"7690
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7690: extern volatile __bit LATD6 __attribute__((address(0x7C66)));
+[v _LATD6 `Vb ~T0 @X0 0 e@31846 ]
+"7687
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7687: extern volatile __bit LATD5 __attribute__((address(0x7C65)));
+[v _LATD5 `Vb ~T0 @X0 0 e@31845 ]
+"7693
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7693: extern volatile __bit LATD7 __attribute__((address(0x7C67)));
+[v _LATD7 `Vb ~T0 @X0 0 e@31847 ]
+[v F2713 `(v ~T0 @X0 1 tf1`ul ]
+"183 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18.h
+[v __delay `JF2713 ~T0 @X0 0 e ]
+[p i __delay ]
+"7630 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7630: extern volatile __bit LATB2 __attribute__((address(0x7C52)));
+[v _LATB2 `Vb ~T0 @X0 0 e@31826 ]
+"7600
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7600: extern volatile __bit LATA0 __attribute__((address(0x7C48)));
+[v _LATA0 `Vb ~T0 @X0 0 e@31816 ]
+"7603
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7603: extern volatile __bit LATA1 __attribute__((address(0x7C49)));
+[v _LATA1 `Vb ~T0 @X0 0 e@31817 ]
+"7606
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7606: extern volatile __bit LATA2 __attribute__((address(0x7C4A)));
+[v _LATA2 `Vb ~T0 @X0 0 e@31818 ]
+"7609
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7609: extern volatile __bit LATA3 __attribute__((address(0x7C4B)));
+[v _LATA3 `Vb ~T0 @X0 0 e@31819 ]
+"7636
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7636: extern volatile __bit LATB4 __attribute__((address(0x7C54)));
+[v _LATB4 `Vb ~T0 @X0 0 e@31828 ]
+"7696
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7696: extern volatile __bit LATE0 __attribute__((address(0x7C68)));
+[v _LATE0 `Vb ~T0 @X0 0 e@31848 ]
+"7699
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7699: extern volatile __bit LATE1 __attribute__((address(0x7C69)));
+[v _LATE1 `Vb ~T0 @X0 0 e@31849 ]
+"7633
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7633: extern volatile __bit LATB3 __attribute__((address(0x7C53)));
+[v _LATB3 `Vb ~T0 @X0 0 e@31827 ]
+"6168
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6168: extern volatile unsigned char T0CON __attribute__((address(0xFD5)));
+[v _T0CON `Vuc ~T0 @X0 0 e@4053 ]
+"6251
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6251: extern volatile unsigned short TMR0 __attribute__((address(0xFD6)));
+[v _TMR0 `Vus ~T0 @X0 0 e@4054 ]
+"6698
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6698:     struct {
+[s S276 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S276 . RBIF INT0IF TMR0IF RBIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
+"6708
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6708:     struct {
+[s S277 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S277 . . INT0F T0IF . INT0E T0IE PEIE GIE ]
+"6718
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6718:     struct {
+[s S278 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S278 . . GIEL GIEH ]
+"6697
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6697: typedef union {
+[u S275 `S276 1 `S277 1 `S278 1 ]
+[n S275 . . . . ]
+"6724
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6724: extern volatile INTCONbits_t INTCONbits __attribute__((address(0xFF2)));
+[v _INTCONbits `VS275 ~T0 @X0 0 e@4082 ]
+"20 setting_hardaware/ym2413.h
+[; ;setting_hardaware/ym2413.h: 20: int fnumbers[12] = {172,181,192,204,216,229,242,257,272,288,305,323};
+[v _fnumbers `i ~T0 @X0 -> 12 `i e ]
+[i _fnumbers
+:U ..
+-> 172 `i
+-> 181 `i
+-> 192 `i
+-> 204 `i
+-> 216 `i
+-> 229 `i
+-> 242 `i
+-> 257 `i
+-> 272 `i
+-> 288 `i
+-> 305 `i
+-> 323 `i
+..
+]
+"21
+[; ;setting_hardaware/ym2413.h: 21: char* notes[] = {"C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"};
+[v _notes `*uc ~T0 @X0 -> 12 `i e ]
+[i _notes
+:U ..
+:s 1C
+:s 2C
+:s 3C
+:s 4C
+:s 5C
+:s 6C
+:s 7C
+:s 8C
+:s 9C
+:s 10C
+:s 11C
+:s 12C
+..
+]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 54: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"273
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 273: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"452
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 452: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"634
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 634: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"776
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 776: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"979
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 979: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"1091
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1091: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"1203
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1203: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"1315
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1315: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"1427
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1427: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"1479
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1479: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"1484
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1484: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"1701
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1701: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"1706
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1706: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"1923
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1923: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"1928
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 1928: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"2145
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2145: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"2150
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2150: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"2367
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2367: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"2372
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2372: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"2531
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2531: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"2596
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2596: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"2673
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2673: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"2750
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2750: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"2827
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2827: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"2893
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2893: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"2959
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 2959: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"3025
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3025: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"3091
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3091: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"3098
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3098: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"3105
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3105: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"3112
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3112: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"3117
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3117: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"3322
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3322: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"3327
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3327: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"3578
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3578: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"3583
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3583: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"3590
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3590: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"3595
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3595: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"3602
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3602: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"3607
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3607: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"3614
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3614: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"3621
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3621: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"3733
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3733: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"3740
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3740: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"3747
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3747: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"3754
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3754: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"3844
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3844: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"3923
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3923: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"3928
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 3928: __asm("ECCPAS equ 0FB6h");
+[; <" ECCPAS equ 0FB6h ;# ">
+"4085
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4085: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"4090
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4090: __asm("ECCP1DEL equ 0FB7h");
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"4223
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4223: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"4228
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4228: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"4403
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4403: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"4482
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4482: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"4489
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4489: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"4496
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4496: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"4503
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4503: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"4600
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4600: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"4607
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4607: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"4614
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4614: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"4621
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4621: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"4692
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4692: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"4777
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4777: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"4896
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4896: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"4903
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4903: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"4910
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4910: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"4917
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 4917: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"5012
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5012: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"5082
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5082: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"5303
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5303: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"5310
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5310: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"5317
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5317: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"5415
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5415: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"5420
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5420: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"5525
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5525: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"5532
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5532: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"5635
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5635: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"5642
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5642: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"5649
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5649: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"5656
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5656: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"5789
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5789: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"5817
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5817: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"5822
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 5822: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"6087
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6087: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"6170
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6170: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"6253
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6253: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"6260
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6260: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"6267
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6267: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"6274
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6274: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"6345
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6345: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"6352
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6352: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"6359
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6359: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"6366
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6366: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"6373
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6373: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"6380
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6380: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"6387
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6387: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"6394
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6394: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"6401
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6401: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"6408
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6408: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"6415
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6415: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"6422
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6422: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"6429
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6429: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"6436
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6436: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"6443
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6443: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"6450
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6450: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"6457
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6457: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"6464
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6464: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"6476
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6476: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"6483
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6483: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"6490
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6490: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"6497
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6497: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"6504
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6504: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"6511
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6511: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"6518
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6518: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"6525
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6525: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"6532
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6532: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"6624
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6624: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"6694
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6694: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"6811
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6811: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"6818
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6818: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"6825
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6825: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"6832
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6832: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"6841
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6841: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"6848
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6848: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"6855
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6855: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"6862
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6862: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"6871
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6871: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"6878
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6878: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"6885
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6885: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"6892
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6892: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"6899
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6899: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"6906
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6906: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"6980
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6980: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"6987
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6987: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"6994
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 6994: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"7001
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h: 7001: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"10 setting_hardaware/ym2413.c
+[; ;setting_hardaware/ym2413.c: 10: void YAMAHA(){
+[v _YAMAHA `(v ~T0 @X0 1 ef ]
+{
+[e :U _YAMAHA ]
+[f ]
+"16
+[; ;setting_hardaware/ym2413.c: 16:     TRISBbits.RB2 = 0;
+[e = . . _TRISBbits 1 2 -> -> 0 `i `uc ]
+"17
+[; ;setting_hardaware/ym2413.c: 17:     TRISDbits.RD5 = 0;
+[e = . . _TRISDbits 1 5 -> -> 0 `i `uc ]
+"18
+[; ;setting_hardaware/ym2413.c: 18:     TRISDbits.RD6 = 0;
+[e = . . _TRISDbits 1 6 -> -> 0 `i `uc ]
+"19
+[; ;setting_hardaware/ym2413.c: 19:     TRISDbits.RD7 = 0;
+[e = . . _TRISDbits 1 7 -> -> 0 `i `uc ]
+"21
+[; ;setting_hardaware/ym2413.c: 21:     TRISAbits.RA0 = 0;
+[e = . . _TRISAbits 1 0 -> -> 0 `i `uc ]
+"22
+[; ;setting_hardaware/ym2413.c: 22:     TRISAbits.RA1 = 0;
+[e = . . _TRISAbits 1 1 -> -> 0 `i `uc ]
+"23
+[; ;setting_hardaware/ym2413.c: 23:     TRISAbits.RA2 = 0;
+[e = . . _TRISAbits 1 2 -> -> 0 `i `uc ]
+"24
+[; ;setting_hardaware/ym2413.c: 24:     TRISAbits.RA3 = 0;
+[e = . . _TRISAbits 1 3 -> -> 0 `i `uc ]
+"25
+[; ;setting_hardaware/ym2413.c: 25:     TRISBbits.RB4 = 0;
+[e = . . _TRISBbits 1 4 -> -> 0 `i `uc ]
+"26
+[; ;setting_hardaware/ym2413.c: 26:     TRISEbits.RE0 = 0;
+[e = . . _TRISEbits 1 0 -> -> 0 `i `uc ]
+"27
+[; ;setting_hardaware/ym2413.c: 27:     TRISEbits.RE1 = 0;
+[e = . . _TRISEbits 1 1 -> -> 0 `i `uc ]
+"28
+[; ;setting_hardaware/ym2413.c: 28:     TRISBbits.RB3 = 0;
+[e = . . _TRISBbits 1 3 -> -> 0 `i `uc ]
+"30
+[; ;setting_hardaware/ym2413.c: 30:     TRISDbits.RD4 = 0;
+[e = . . _TRISDbits 1 4 -> -> 0 `i `uc ]
+"31
+[; ;setting_hardaware/ym2413.c: 31:     TRISDbits.RD1 = 0;
+[e = . . _TRISDbits 1 1 -> -> 0 `i `uc ]
+"32
+[; ;setting_hardaware/ym2413.c: 32:     TRISDbits.RD2 = 0;
+[e = . . _TRISDbits 1 2 -> -> 0 `i `uc ]
+"33
+[; ;setting_hardaware/ym2413.c: 33:     TRISDbits.RD3 = 0;
+[e = . . _TRISDbits 1 3 -> -> 0 `i `uc ]
+"35
+[; ;setting_hardaware/ym2413.c: 35:     LATD6 = 1;
+[e = _LATD6 -> -> 1 `i `b ]
+"36
+[; ;setting_hardaware/ym2413.c: 36:     LATD5 = 0;
+[e = _LATD5 -> -> 0 `i `b ]
+"37
+[; ;setting_hardaware/ym2413.c: 37:     LATD7 = 0;
+[e = _LATD7 -> -> 0 `i `b ]
+"38
+[; ;setting_hardaware/ym2413.c: 38:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"39
+[; ;setting_hardaware/ym2413.c: 39:     LATD7 = 1;
+[e = _LATD7 -> -> 1 `i `b ]
+"56
+[; ;setting_hardaware/ym2413.c: 56: }
+[e :UE 282 ]
+}
+"58
+[; ;setting_hardaware/ym2413.c: 58: int get_bits(int n, int target){
+[v _get_bits `(i ~T0 @X0 1 ef2`i`i ]
+{
+[e :U _get_bits ]
+[v _n `i ~T0 @X0 1 r1 ]
+[v _target `i ~T0 @X0 1 r2 ]
+[f ]
+"59
+[; ;setting_hardaware/ym2413.c: 59:     int result = (target & (1 << n)) >> n;
+[v _result `i ~T0 @X0 1 a ]
+[e = _result >> & _target << -> 1 `i _n _n ]
+"60
+[; ;setting_hardaware/ym2413.c: 60:     return result;
+[e ) _result ]
+[e $UE 283  ]
+"61
+[; ;setting_hardaware/ym2413.c: 61: }
+[e :UE 283 ]
+}
+"63
+[; ;setting_hardaware/ym2413.c: 63: int modifyBit(int n, int p, int b) {
+[v _modifyBit `(i ~T0 @X0 1 ef3`i`i`i ]
+{
+[e :U _modifyBit ]
+[v _n `i ~T0 @X0 1 r1 ]
+[v _p `i ~T0 @X0 1 r2 ]
+[v _b `i ~T0 @X0 1 r3 ]
+[f ]
+"64
+[; ;setting_hardaware/ym2413.c: 64:     int mask = 1 << p;
+[v _mask `i ~T0 @X0 1 a ]
+[e = _mask << -> 1 `i _p ]
+"65
+[; ;setting_hardaware/ym2413.c: 65:     return (n & ~mask) | ((b << p) & mask);
+[e ) | & _n ~ _mask & << _b _p _mask ]
+[e $UE 284  ]
+"66
+[; ;setting_hardaware/ym2413.c: 66: }
+[e :UE 284 ]
+}
+"68
+[; ;setting_hardaware/ym2413.c: 68: void YM2413Write(int address, int data){
+[v _YM2413Write `(v ~T0 @X0 1 ef2`i`i ]
+{
+[e :U _YM2413Write ]
+[v _address `i ~T0 @X0 1 r1 ]
+[v _data `i ~T0 @X0 1 r2 ]
+[f ]
+"75
+[; ;setting_hardaware/ym2413.c: 75:     LATD6 = 1;
+[e = _LATD6 -> -> 1 `i `b ]
+"76
+[; ;setting_hardaware/ym2413.c: 76:     LATB2 = 0;
+[e = _LATB2 -> -> 0 `i `b ]
+"77
+[; ;setting_hardaware/ym2413.c: 77:     LATA0 = get_bits(0, address);
+[e = _LATA0 -> ( _get_bits (2 , -> 0 `i _address `b ]
+"78
+[; ;setting_hardaware/ym2413.c: 78:     LATA1 = get_bits(1, address);
+[e = _LATA1 -> ( _get_bits (2 , -> 1 `i _address `b ]
+"79
+[; ;setting_hardaware/ym2413.c: 79:     LATA2 = get_bits(2, address);
+[e = _LATA2 -> ( _get_bits (2 , -> 2 `i _address `b ]
+"80
+[; ;setting_hardaware/ym2413.c: 80:     LATA3 = get_bits(3, address);
+[e = _LATA3 -> ( _get_bits (2 , -> 3 `i _address `b ]
+"81
+[; ;setting_hardaware/ym2413.c: 81:     LATB4 = get_bits(4, address);
+[e = _LATB4 -> ( _get_bits (2 , -> 4 `i _address `b ]
+"82
+[; ;setting_hardaware/ym2413.c: 82:     LATE0 = get_bits(5, address);
+[e = _LATE0 -> ( _get_bits (2 , -> 5 `i _address `b ]
+"83
+[; ;setting_hardaware/ym2413.c: 83:     LATE1 = get_bits(6, address);
+[e = _LATE1 -> ( _get_bits (2 , -> 6 `i _address `b ]
+"84
+[; ;setting_hardaware/ym2413.c: 84:     LATB3 = get_bits(7, address);
+[e = _LATB3 -> ( _get_bits (2 , -> 7 `i _address `b ]
+"85
+[; ;setting_hardaware/ym2413.c: 85:     LATD6 = 0;
+[e = _LATD6 -> -> 0 `i `b ]
+"87
+[; ;setting_hardaware/ym2413.c: 87:     _delay((unsigned long)((3.5)*(4000000/4000000.0)));
+[e ( __delay (1 -> * .3.5 / -> -> 4000000 `l `d .4000000.0 `ul ]
+"88
+[; ;setting_hardaware/ym2413.c: 88:     LATD6 = 1;
+[e = _LATD6 -> -> 1 `i `b ]
+"90
+[; ;setting_hardaware/ym2413.c: 90:     LATD6 = 1;
+[e = _LATD6 -> -> 1 `i `b ]
+"91
+[; ;setting_hardaware/ym2413.c: 91:     LATB2 = 1;
+[e = _LATB2 -> -> 1 `i `b ]
+"92
+[; ;setting_hardaware/ym2413.c: 92:     LATA0 = get_bits(0, data);
+[e = _LATA0 -> ( _get_bits (2 , -> 0 `i _data `b ]
+"93
+[; ;setting_hardaware/ym2413.c: 93:     LATA1 = get_bits(1, data);
+[e = _LATA1 -> ( _get_bits (2 , -> 1 `i _data `b ]
+"94
+[; ;setting_hardaware/ym2413.c: 94:     LATA2 = get_bits(2, data);
+[e = _LATA2 -> ( _get_bits (2 , -> 2 `i _data `b ]
+"95
+[; ;setting_hardaware/ym2413.c: 95:     LATA3 = get_bits(3, data);
+[e = _LATA3 -> ( _get_bits (2 , -> 3 `i _data `b ]
+"96
+[; ;setting_hardaware/ym2413.c: 96:     LATB4 = get_bits(4, data);
+[e = _LATB4 -> ( _get_bits (2 , -> 4 `i _data `b ]
+"97
+[; ;setting_hardaware/ym2413.c: 97:     LATE0 = get_bits(5, data);
+[e = _LATE0 -> ( _get_bits (2 , -> 5 `i _data `b ]
+"98
+[; ;setting_hardaware/ym2413.c: 98:     LATE1 = get_bits(6, data);
+[e = _LATE1 -> ( _get_bits (2 , -> 6 `i _data `b ]
+"99
+[; ;setting_hardaware/ym2413.c: 99:     LATB3 = get_bits(7, data);
+[e = _LATB3 -> ( _get_bits (2 , -> 7 `i _data `b ]
+"100
+[; ;setting_hardaware/ym2413.c: 100:     LATD6 = 0;
+[e = _LATD6 -> -> 0 `i `b ]
+"102
+[; ;setting_hardaware/ym2413.c: 102:     _delay((unsigned long)((22)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 22 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"104
+[; ;setting_hardaware/ym2413.c: 104:     LATD6 = 1;
+[e = _LATD6 -> -> 1 `i `b ]
+"105
+[; ;setting_hardaware/ym2413.c: 105: }
+[e :UE 285 ]
+}
+"107
+[; ;setting_hardaware/ym2413.c: 107: void playNote(int channel, char* note, int oct, int instrument, int vol) {
+[v _playNote `(v ~T0 @X0 1 ef5`i`*uc`i`i`i ]
+{
+[e :U _playNote ]
+[v _channel `i ~T0 @X0 1 r1 ]
+[v _note `*uc ~T0 @X0 1 r2 ]
+[v _oct `i ~T0 @X0 1 r3 ]
+[v _instrument `i ~T0 @X0 1 r4 ]
+[v _vol `i ~T0 @X0 1 r5 ]
+[f ]
+"109
+[; ;setting_hardaware/ym2413.c: 109:     YM2413Write(0x0E, 0);
+[e ( _YM2413Write (2 , -> 14 `i -> 0 `i ]
+"111
+[; ;setting_hardaware/ym2413.c: 111:     int noteNumber;
+[v _noteNumber `i ~T0 @X0 1 a ]
+"113
+[; ;setting_hardaware/ym2413.c: 113:     for (int i = 0; i < 12; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 12 `i 287  ]
+[e $U 288  ]
+[e :U 287 ]
+{
+"115
+[; ;setting_hardaware/ym2413.c: 115:         if (notes[i] == note) {
+[e $ ! == *U + &U _notes * -> -> _i `ui `ux -> -> # *U &U _notes `ui `ux _note 290  ]
+{
+"117
+[; ;setting_hardaware/ym2413.c: 117:             if (i > 11) i=i-12;
+[e $ ! > _i -> 11 `i 291  ]
+[e = _i - _i -> 12 `i ]
+[e :U 291 ]
+"118
+[; ;setting_hardaware/ym2413.c: 118:             noteNumber = i;
+[e = _noteNumber _i ]
+"119
+[; ;setting_hardaware/ym2413.c: 119:             break;
+[e $U 288  ]
+"120
+[; ;setting_hardaware/ym2413.c: 120:         }
+}
+[e :U 290 ]
+"121
+[; ;setting_hardaware/ym2413.c: 121:     }
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 12 `i 287  ]
+[e :U 288 ]
+}
+"122
+[; ;setting_hardaware/ym2413.c: 122:     YM2413Write(0x10 + channel, fnumbers[noteNumber]);
+[e ( _YM2413Write (2 , + -> 16 `i _channel *U + &U _fnumbers * -> -> _noteNumber `ui `ux -> -> # *U &U _fnumbers `ui `ux ]
+"124
+[; ;setting_hardaware/ym2413.c: 124:     int yB20 = 0;
+[v _yB20 `i ~T0 @X0 1 a ]
+[e = _yB20 -> 0 `i ]
+"125
+[; ;setting_hardaware/ym2413.c: 125:     yB20 = modifyBit(yB20, 0, get_bits(8, fnumbers[noteNumber]));
+[e = _yB20 ( _modifyBit (3 , , _yB20 -> 0 `i ( _get_bits (2 , -> 8 `i *U + &U _fnumbers * -> -> _noteNumber `ui `ux -> -> # *U &U _fnumbers `ui `ux ]
+"126
+[; ;setting_hardaware/ym2413.c: 126:     yB20 = modifyBit(yB20, 1, get_bits(0, oct));
+[e = _yB20 ( _modifyBit (3 , , _yB20 -> 1 `i ( _get_bits (2 , -> 0 `i _oct ]
+"127
+[; ;setting_hardaware/ym2413.c: 127:     yB20 = modifyBit(yB20, 2, get_bits(1, oct));
+[e = _yB20 ( _modifyBit (3 , , _yB20 -> 2 `i ( _get_bits (2 , -> 1 `i _oct ]
+"128
+[; ;setting_hardaware/ym2413.c: 128:     yB20 = modifyBit(yB20, 3, get_bits(2, oct));
+[e = _yB20 ( _modifyBit (3 , , _yB20 -> 3 `i ( _get_bits (2 , -> 2 `i _oct ]
+"129
+[; ;setting_hardaware/ym2413.c: 129:     yB20 = modifyBit(yB20, 4, 1);
+[e = _yB20 ( _modifyBit (3 , , _yB20 -> 4 `i -> 1 `i ]
+"130
+[; ;setting_hardaware/ym2413.c: 130:     YM2413Write(0x20 + channel, yB20);
+[e ( _YM2413Write (2 , + -> 32 `i _channel _yB20 ]
+"132
+[; ;setting_hardaware/ym2413.c: 132:     int yB30 = instrument << 4 | vol;
+[v _yB30 `i ~T0 @X0 1 a ]
+[e = _yB30 | << _instrument -> 4 `i _vol ]
+"133
+[; ;setting_hardaware/ym2413.c: 133:     YM2413Write(0x30 + channel, yB30);
+[e ( _YM2413Write (2 , + -> 48 `i _channel _yB30 ]
+"134
+[; ;setting_hardaware/ym2413.c: 134: }
+[e :UE 286 ]
+}
+"137
+[; ;setting_hardaware/ym2413.c: 137: void stopNote(int channel,int sustain){
+[v _stopNote `(v ~T0 @X0 1 ef2`i`i ]
+{
+[e :U _stopNote ]
+[v _channel `i ~T0 @X0 1 r1 ]
+[v _sustain `i ~T0 @X0 1 r2 ]
+[f ]
+"138
+[; ;setting_hardaware/ym2413.c: 138:   int yB20 = 0;
+[v _yB20 `i ~T0 @X0 1 a ]
+[e = _yB20 -> 0 `i ]
+"139
+[; ;setting_hardaware/ym2413.c: 139:   yB20 = modifyBit(yB20, 5, sustain);
+[e = _yB20 ( _modifyBit (3 , , _yB20 -> 5 `i _sustain ]
+"140
+[; ;setting_hardaware/ym2413.c: 140:   YM2413Write((0x20 + channel), yB20);
+[e ( _YM2413Write (2 , + -> 32 `i _channel _yB20 ]
+"141
+[; ;setting_hardaware/ym2413.c: 141: }
+[e :UE 292 ]
+}
+"143
+[; ;setting_hardaware/ym2413.c: 143: void delay_ms(int x) {
+[v _delay_ms `(v ~T0 @X0 1 ef1`i ]
+{
+[e :U _delay_ms ]
+[v _x `i ~T0 @X0 1 r1 ]
+[f ]
+"147
+[; ;setting_hardaware/ym2413.c: 147:     T0CON = 0x84;
+[e = _T0CON -> -> 132 `i `uc ]
+"148
+[; ;setting_hardaware/ym2413.c: 148:     TMR0 = 65535 - x*2400;
+[e = _TMR0 -> - -> 65535 `l -> * _x -> 2400 `i `l `us ]
+"149
+[; ;setting_hardaware/ym2413.c: 149:     INTCONbits.TMR0IF = 0;
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+"150
+[; ;setting_hardaware/ym2413.c: 150:     while (!INTCONbits.TMR0IF);
+[e $U 294  ]
+[e :U 295 ]
+[e :U 294 ]
+[e $ ! != -> . . _INTCONbits 0 2 `i -> 0 `i 295  ]
+[e :U 296 ]
+"152
+[; ;setting_hardaware/ym2413.c: 152:     return;
+[e $UE 293  ]
+"153
+[; ;setting_hardaware/ym2413.c: 153: }
+[e :UE 293 ]
+}
+"155
+[; ;setting_hardaware/ym2413.c: 155: void canon(int base_instrument, int main_instrument, float bpm) {
+[v _canon `(v ~T0 @X0 1 ef3`i`i`f ]
+{
+[e :U _canon ]
+[v _base_instrument `i ~T0 @X0 1 r1 ]
+[v _main_instrument `i ~T0 @X0 1 r2 ]
+[v _bpm `f ~T0 @X0 1 r3 ]
+[f ]
+"157
+[; ;setting_hardaware/ym2413.c: 157:     float time = bpm*16;
+[v _time `f ~T0 @X0 1 a ]
+[e = _time * _bpm -> -> 16 `i `f ]
+"160
+[; ;setting_hardaware/ym2413.c: 160:     playNote(0, "D", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 13C -> 3 `i _base_instrument -> 0 `i ]
+"161
+[; ;setting_hardaware/ym2413.c: 161:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"162
+[; ;setting_hardaware/ym2413.c: 162:     playNote(1, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 14C -> 4 `i _main_instrument -> 2 `i ]
+"163
+[; ;setting_hardaware/ym2413.c: 163:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"164
+[; ;setting_hardaware/ym2413.c: 164:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"165
+[; ;setting_hardaware/ym2413.c: 165:     playNote(1, "D", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 15C -> 5 `i _main_instrument -> 2 `i ]
+"166
+[; ;setting_hardaware/ym2413.c: 166:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"167
+[; ;setting_hardaware/ym2413.c: 167:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"168
+[; ;setting_hardaware/ym2413.c: 168:     playNote(1, "F#", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 16C -> 5 `i _main_instrument -> 2 `i ]
+"169
+[; ;setting_hardaware/ym2413.c: 169:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"170
+[; ;setting_hardaware/ym2413.c: 170:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"171
+[; ;setting_hardaware/ym2413.c: 171:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"173
+[; ;setting_hardaware/ym2413.c: 173:     playNote(0, "A", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 17C -> 2 `i _base_instrument -> 0 `i ]
+"174
+[; ;setting_hardaware/ym2413.c: 174:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"175
+[; ;setting_hardaware/ym2413.c: 175:     playNote(1, "E", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 18C -> 4 `i _main_instrument -> 2 `i ]
+"176
+[; ;setting_hardaware/ym2413.c: 176:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"177
+[; ;setting_hardaware/ym2413.c: 177:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"178
+[; ;setting_hardaware/ym2413.c: 178:     playNote(1, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 19C -> 4 `i _main_instrument -> 2 `i ]
+"179
+[; ;setting_hardaware/ym2413.c: 179:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"180
+[; ;setting_hardaware/ym2413.c: 180:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"181
+[; ;setting_hardaware/ym2413.c: 181:     playNote(1, "C#", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 20C -> 5 `i _main_instrument -> 2 `i ]
+"182
+[; ;setting_hardaware/ym2413.c: 182:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"183
+[; ;setting_hardaware/ym2413.c: 183:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"184
+[; ;setting_hardaware/ym2413.c: 184:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"186
+[; ;setting_hardaware/ym2413.c: 186:     playNote(0, "B", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 21C -> 2 `i _base_instrument -> 0 `i ]
+"187
+[; ;setting_hardaware/ym2413.c: 187:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"188
+[; ;setting_hardaware/ym2413.c: 188:     playNote(1, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 22C -> 4 `i _main_instrument -> 2 `i ]
+"189
+[; ;setting_hardaware/ym2413.c: 189:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"190
+[; ;setting_hardaware/ym2413.c: 190:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"191
+[; ;setting_hardaware/ym2413.c: 191:     playNote(1, "B", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 23C -> 4 `i _main_instrument -> 2 `i ]
+"192
+[; ;setting_hardaware/ym2413.c: 192:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"193
+[; ;setting_hardaware/ym2413.c: 193:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"194
+[; ;setting_hardaware/ym2413.c: 194:     playNote(1, "D", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 24C -> 5 `i _main_instrument -> 2 `i ]
+"195
+[; ;setting_hardaware/ym2413.c: 195:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"196
+[; ;setting_hardaware/ym2413.c: 196:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"197
+[; ;setting_hardaware/ym2413.c: 197:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"199
+[; ;setting_hardaware/ym2413.c: 199:     playNote(0, "F#", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 25C -> 2 `i _base_instrument -> 0 `i ]
+"200
+[; ;setting_hardaware/ym2413.c: 200:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"201
+[; ;setting_hardaware/ym2413.c: 201:     playNote(1, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 26C -> 4 `i _main_instrument -> 2 `i ]
+"202
+[; ;setting_hardaware/ym2413.c: 202:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"203
+[; ;setting_hardaware/ym2413.c: 203:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"204
+[; ;setting_hardaware/ym2413.c: 204:     playNote(1, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 27C -> 4 `i _main_instrument -> 2 `i ]
+"205
+[; ;setting_hardaware/ym2413.c: 205:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"206
+[; ;setting_hardaware/ym2413.c: 206:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"207
+[; ;setting_hardaware/ym2413.c: 207:     playNote(1, "C#", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 28C -> 5 `i _main_instrument -> 2 `i ]
+"208
+[; ;setting_hardaware/ym2413.c: 208:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"209
+[; ;setting_hardaware/ym2413.c: 209:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"210
+[; ;setting_hardaware/ym2413.c: 210:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"212
+[; ;setting_hardaware/ym2413.c: 212:     playNote(0, "G", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 29C -> 2 `i _base_instrument -> 0 `i ]
+"213
+[; ;setting_hardaware/ym2413.c: 213:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"214
+[; ;setting_hardaware/ym2413.c: 214:     playNote(1, "D", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 30C -> 4 `i _main_instrument -> 2 `i ]
+"215
+[; ;setting_hardaware/ym2413.c: 215:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"216
+[; ;setting_hardaware/ym2413.c: 216:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"217
+[; ;setting_hardaware/ym2413.c: 217:     playNote(1, "G", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 31C -> 4 `i _main_instrument -> 2 `i ]
+"218
+[; ;setting_hardaware/ym2413.c: 218:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"219
+[; ;setting_hardaware/ym2413.c: 219:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"220
+[; ;setting_hardaware/ym2413.c: 220:     playNote(1, "B", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 32C -> 4 `i _main_instrument -> 2 `i ]
+"221
+[; ;setting_hardaware/ym2413.c: 221:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"222
+[; ;setting_hardaware/ym2413.c: 222:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"223
+[; ;setting_hardaware/ym2413.c: 223:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"225
+[; ;setting_hardaware/ym2413.c: 225:     playNote(0, "D", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 33C -> 2 `i _base_instrument -> 0 `i ]
+"226
+[; ;setting_hardaware/ym2413.c: 226:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"227
+[; ;setting_hardaware/ym2413.c: 227:     playNote(1, "D", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 34C -> 4 `i _main_instrument -> 2 `i ]
+"228
+[; ;setting_hardaware/ym2413.c: 228:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"229
+[; ;setting_hardaware/ym2413.c: 229:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"230
+[; ;setting_hardaware/ym2413.c: 230:     playNote(1, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 35C -> 4 `i _main_instrument -> 2 `i ]
+"231
+[; ;setting_hardaware/ym2413.c: 231:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"232
+[; ;setting_hardaware/ym2413.c: 232:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"233
+[; ;setting_hardaware/ym2413.c: 233:     playNote(1, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 36C -> 4 `i _main_instrument -> 2 `i ]
+"234
+[; ;setting_hardaware/ym2413.c: 234:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"235
+[; ;setting_hardaware/ym2413.c: 235:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"236
+[; ;setting_hardaware/ym2413.c: 236:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"238
+[; ;setting_hardaware/ym2413.c: 238:     playNote(0, "G", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 37C -> 2 `i _base_instrument -> 0 `i ]
+"239
+[; ;setting_hardaware/ym2413.c: 239:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"240
+[; ;setting_hardaware/ym2413.c: 240:     playNote(1, "D", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 38C -> 4 `i _main_instrument -> 2 `i ]
+"241
+[; ;setting_hardaware/ym2413.c: 241:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"242
+[; ;setting_hardaware/ym2413.c: 242:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"243
+[; ;setting_hardaware/ym2413.c: 243:     playNote(1, "G", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 39C -> 4 `i _main_instrument -> 2 `i ]
+"244
+[; ;setting_hardaware/ym2413.c: 244:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"245
+[; ;setting_hardaware/ym2413.c: 245:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"246
+[; ;setting_hardaware/ym2413.c: 246:     playNote(1, "B", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 40C -> 4 `i _main_instrument -> 2 `i ]
+"247
+[; ;setting_hardaware/ym2413.c: 247:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"248
+[; ;setting_hardaware/ym2413.c: 248:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"249
+[; ;setting_hardaware/ym2413.c: 249:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"251
+[; ;setting_hardaware/ym2413.c: 251:     playNote(0, "A", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 41C -> 2 `i _base_instrument -> 0 `i ]
+"252
+[; ;setting_hardaware/ym2413.c: 252:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"253
+[; ;setting_hardaware/ym2413.c: 253:     playNote(1, "E", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 42C -> 4 `i _main_instrument -> 2 `i ]
+"254
+[; ;setting_hardaware/ym2413.c: 254:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"255
+[; ;setting_hardaware/ym2413.c: 255:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"256
+[; ;setting_hardaware/ym2413.c: 256:     playNote(1, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 43C -> 4 `i _main_instrument -> 2 `i ]
+"257
+[; ;setting_hardaware/ym2413.c: 257:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"258
+[; ;setting_hardaware/ym2413.c: 258:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"259
+[; ;setting_hardaware/ym2413.c: 259:     playNote(1, "C#", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 44C -> 5 `i _main_instrument -> 2 `i ]
+"260
+[; ;setting_hardaware/ym2413.c: 260:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"261
+[; ;setting_hardaware/ym2413.c: 261:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"262
+[; ;setting_hardaware/ym2413.c: 262:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"266
+[; ;setting_hardaware/ym2413.c: 266:     playNote(0, "D", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 45C -> 3 `i _base_instrument -> 0 `i ]
+"267
+[; ;setting_hardaware/ym2413.c: 267:     playNote(2, "D", 4, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 46C -> 4 `i _base_instrument -> 0 `i ]
+"268
+[; ;setting_hardaware/ym2413.c: 268:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"269
+[; ;setting_hardaware/ym2413.c: 269:     playNote(1, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 47C -> 4 `i _main_instrument -> 2 `i ]
+"270
+[; ;setting_hardaware/ym2413.c: 270:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"271
+[; ;setting_hardaware/ym2413.c: 271:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"272
+[; ;setting_hardaware/ym2413.c: 272:     playNote(1, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 48C -> 4 `i _main_instrument -> 2 `i ]
+"273
+[; ;setting_hardaware/ym2413.c: 273:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"274
+[; ;setting_hardaware/ym2413.c: 274:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"275
+[; ;setting_hardaware/ym2413.c: 275:     playNote(1, "D", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 49C -> 5 `i _main_instrument -> 2 `i ]
+"276
+[; ;setting_hardaware/ym2413.c: 276:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"277
+[; ;setting_hardaware/ym2413.c: 277:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"278
+[; ;setting_hardaware/ym2413.c: 278:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"279
+[; ;setting_hardaware/ym2413.c: 279:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"281
+[; ;setting_hardaware/ym2413.c: 281:     playNote(0, "A", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 50C -> 2 `i _base_instrument -> 0 `i ]
+"282
+[; ;setting_hardaware/ym2413.c: 282:     playNote(2, "A", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 51C -> 3 `i _base_instrument -> 0 `i ]
+"283
+[; ;setting_hardaware/ym2413.c: 283:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"284
+[; ;setting_hardaware/ym2413.c: 284:     playNote(1, "E", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 52C -> 4 `i _main_instrument -> 2 `i ]
+"285
+[; ;setting_hardaware/ym2413.c: 285:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"286
+[; ;setting_hardaware/ym2413.c: 286:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"287
+[; ;setting_hardaware/ym2413.c: 287:     playNote(1, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 53C -> 4 `i _main_instrument -> 2 `i ]
+"288
+[; ;setting_hardaware/ym2413.c: 288:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"289
+[; ;setting_hardaware/ym2413.c: 289:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"290
+[; ;setting_hardaware/ym2413.c: 290:     playNote(1, "C#", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 54C -> 5 `i _main_instrument -> 2 `i ]
+"291
+[; ;setting_hardaware/ym2413.c: 291:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"292
+[; ;setting_hardaware/ym2413.c: 292:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"293
+[; ;setting_hardaware/ym2413.c: 293:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"294
+[; ;setting_hardaware/ym2413.c: 294:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"296
+[; ;setting_hardaware/ym2413.c: 296:     playNote(0, "B", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 55C -> 2 `i _base_instrument -> 0 `i ]
+"297
+[; ;setting_hardaware/ym2413.c: 297:     playNote(2, "B", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 56C -> 3 `i _base_instrument -> 0 `i ]
+"298
+[; ;setting_hardaware/ym2413.c: 298:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"299
+[; ;setting_hardaware/ym2413.c: 299:     playNote(1, "D", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 57C -> 4 `i _main_instrument -> 2 `i ]
+"300
+[; ;setting_hardaware/ym2413.c: 300:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"301
+[; ;setting_hardaware/ym2413.c: 301:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"302
+[; ;setting_hardaware/ym2413.c: 302:     playNote(1, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 58C -> 4 `i _main_instrument -> 2 `i ]
+"303
+[; ;setting_hardaware/ym2413.c: 303:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"304
+[; ;setting_hardaware/ym2413.c: 304:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"305
+[; ;setting_hardaware/ym2413.c: 305:     playNote(1, "B", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 59C -> 4 `i _main_instrument -> 2 `i ]
+"306
+[; ;setting_hardaware/ym2413.c: 306:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"307
+[; ;setting_hardaware/ym2413.c: 307:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"308
+[; ;setting_hardaware/ym2413.c: 308:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"309
+[; ;setting_hardaware/ym2413.c: 309:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"311
+[; ;setting_hardaware/ym2413.c: 311:     playNote(0, "F#", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 60C -> 2 `i _base_instrument -> 0 `i ]
+"312
+[; ;setting_hardaware/ym2413.c: 312:     playNote(2, "F#", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 61C -> 3 `i _base_instrument -> 0 `i ]
+"313
+[; ;setting_hardaware/ym2413.c: 313:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"314
+[; ;setting_hardaware/ym2413.c: 314:     playNote(1, "C#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 62C -> 4 `i _main_instrument -> 2 `i ]
+"315
+[; ;setting_hardaware/ym2413.c: 315:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"316
+[; ;setting_hardaware/ym2413.c: 316:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"317
+[; ;setting_hardaware/ym2413.c: 317:     playNote(1, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 63C -> 4 `i _main_instrument -> 2 `i ]
+"318
+[; ;setting_hardaware/ym2413.c: 318:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"319
+[; ;setting_hardaware/ym2413.c: 319:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"320
+[; ;setting_hardaware/ym2413.c: 320:     playNote(1, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 64C -> 4 `i _main_instrument -> 2 `i ]
+"321
+[; ;setting_hardaware/ym2413.c: 321:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"322
+[; ;setting_hardaware/ym2413.c: 322:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"323
+[; ;setting_hardaware/ym2413.c: 323:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"324
+[; ;setting_hardaware/ym2413.c: 324:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"326
+[; ;setting_hardaware/ym2413.c: 326:     playNote(0, "G", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 65C -> 2 `i _base_instrument -> 0 `i ]
+"327
+[; ;setting_hardaware/ym2413.c: 327:     playNote(2, "G", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 66C -> 3 `i _base_instrument -> 0 `i ]
+"328
+[; ;setting_hardaware/ym2413.c: 328:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"329
+[; ;setting_hardaware/ym2413.c: 329:     playNote(1, "B", 3, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 67C -> 3 `i _main_instrument -> 2 `i ]
+"330
+[; ;setting_hardaware/ym2413.c: 330:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"331
+[; ;setting_hardaware/ym2413.c: 331:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"332
+[; ;setting_hardaware/ym2413.c: 332:     playNote(1, "D", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 68C -> 4 `i _main_instrument -> 2 `i ]
+"333
+[; ;setting_hardaware/ym2413.c: 333:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"334
+[; ;setting_hardaware/ym2413.c: 334:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"335
+[; ;setting_hardaware/ym2413.c: 335:     playNote(1, "G", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 69C -> 4 `i _main_instrument -> 2 `i ]
+"336
+[; ;setting_hardaware/ym2413.c: 336:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"337
+[; ;setting_hardaware/ym2413.c: 337:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"338
+[; ;setting_hardaware/ym2413.c: 338:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"339
+[; ;setting_hardaware/ym2413.c: 339:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"341
+[; ;setting_hardaware/ym2413.c: 341:     playNote(0, "D", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 70C -> 2 `i _base_instrument -> 0 `i ]
+"342
+[; ;setting_hardaware/ym2413.c: 342:     playNote(2, "D", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 71C -> 3 `i _base_instrument -> 0 `i ]
+"343
+[; ;setting_hardaware/ym2413.c: 343:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"344
+[; ;setting_hardaware/ym2413.c: 344:     playNote(1, "A", 3, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 72C -> 3 `i _main_instrument -> 2 `i ]
+"345
+[; ;setting_hardaware/ym2413.c: 345:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"346
+[; ;setting_hardaware/ym2413.c: 346:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"347
+[; ;setting_hardaware/ym2413.c: 347:     playNote(1, "D", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 73C -> 4 `i _main_instrument -> 2 `i ]
+"348
+[; ;setting_hardaware/ym2413.c: 348:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"349
+[; ;setting_hardaware/ym2413.c: 349:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"350
+[; ;setting_hardaware/ym2413.c: 350:     playNote(1, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 74C -> 4 `i _main_instrument -> 2 `i ]
+"351
+[; ;setting_hardaware/ym2413.c: 351:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"352
+[; ;setting_hardaware/ym2413.c: 352:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"353
+[; ;setting_hardaware/ym2413.c: 353:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"354
+[; ;setting_hardaware/ym2413.c: 354:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"356
+[; ;setting_hardaware/ym2413.c: 356:     playNote(0, "G", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 75C -> 2 `i _base_instrument -> 0 `i ]
+"357
+[; ;setting_hardaware/ym2413.c: 357:     playNote(2, "G", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 76C -> 3 `i _base_instrument -> 0 `i ]
+"358
+[; ;setting_hardaware/ym2413.c: 358:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"359
+[; ;setting_hardaware/ym2413.c: 359:     playNote(1, "B", 3, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 77C -> 3 `i _main_instrument -> 2 `i ]
+"360
+[; ;setting_hardaware/ym2413.c: 360:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"361
+[; ;setting_hardaware/ym2413.c: 361:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"362
+[; ;setting_hardaware/ym2413.c: 362:     playNote(1, "D", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 78C -> 4 `i _main_instrument -> 2 `i ]
+"363
+[; ;setting_hardaware/ym2413.c: 363:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"364
+[; ;setting_hardaware/ym2413.c: 364:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"365
+[; ;setting_hardaware/ym2413.c: 365:     playNote(1, "G", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 79C -> 4 `i _main_instrument -> 2 `i ]
+"366
+[; ;setting_hardaware/ym2413.c: 366:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"367
+[; ;setting_hardaware/ym2413.c: 367:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"368
+[; ;setting_hardaware/ym2413.c: 368:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"369
+[; ;setting_hardaware/ym2413.c: 369:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"371
+[; ;setting_hardaware/ym2413.c: 371:     playNote(0, "A", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 0 `i :s 80C -> 2 `i _base_instrument -> 0 `i ]
+"372
+[; ;setting_hardaware/ym2413.c: 372:     playNote(2, "A", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 81C -> 3 `i _base_instrument -> 0 `i ]
+"373
+[; ;setting_hardaware/ym2413.c: 373:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"374
+[; ;setting_hardaware/ym2413.c: 374:     playNote(1, "C#", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 82C -> 4 `i _base_instrument -> 2 `i ]
+"375
+[; ;setting_hardaware/ym2413.c: 375:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"376
+[; ;setting_hardaware/ym2413.c: 376:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"377
+[; ;setting_hardaware/ym2413.c: 377:     playNote(1, "E", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 83C -> 4 `i _base_instrument -> 2 `i ]
+"378
+[; ;setting_hardaware/ym2413.c: 378:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"379
+[; ;setting_hardaware/ym2413.c: 379:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"380
+[; ;setting_hardaware/ym2413.c: 380:     playNote(1, "A", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 1 `i :s 84C -> 4 `i _base_instrument -> 2 `i ]
+"381
+[; ;setting_hardaware/ym2413.c: 381:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"382
+[; ;setting_hardaware/ym2413.c: 382:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"383
+[; ;setting_hardaware/ym2413.c: 383:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"384
+[; ;setting_hardaware/ym2413.c: 384:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"387
+[; ;setting_hardaware/ym2413.c: 387:     playNote(1, "F#", 5, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 85C -> 5 `i _main_instrument -> 0 `i ]
+"388
+[; ;setting_hardaware/ym2413.c: 388:     playNote(2, "D", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 86C -> 3 `i _base_instrument -> 0 `i ]
+"389
+[; ;setting_hardaware/ym2413.c: 389:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"390
+[; ;setting_hardaware/ym2413.c: 390:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"391
+[; ;setting_hardaware/ym2413.c: 391:     playNote(0, "A", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 87C -> 3 `i _base_instrument -> 2 `i ]
+"392
+[; ;setting_hardaware/ym2413.c: 392:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"393
+[; ;setting_hardaware/ym2413.c: 393:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"394
+[; ;setting_hardaware/ym2413.c: 394:     playNote(0, "D", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 88C -> 4 `i _base_instrument -> 2 `i ]
+"395
+[; ;setting_hardaware/ym2413.c: 395:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"396
+[; ;setting_hardaware/ym2413.c: 396:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"397
+[; ;setting_hardaware/ym2413.c: 397:     playNote(0, "F#", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 89C -> 4 `i _base_instrument -> 2 `i ]
+"398
+[; ;setting_hardaware/ym2413.c: 398:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"399
+[; ;setting_hardaware/ym2413.c: 399:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"400
+[; ;setting_hardaware/ym2413.c: 400:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"401
+[; ;setting_hardaware/ym2413.c: 401:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"403
+[; ;setting_hardaware/ym2413.c: 403:     playNote(1, "E", 5, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 90C -> 5 `i _main_instrument -> 0 `i ]
+"404
+[; ;setting_hardaware/ym2413.c: 404:     playNote(2, "A", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 91C -> 2 `i _base_instrument -> 0 `i ]
+"405
+[; ;setting_hardaware/ym2413.c: 405:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"406
+[; ;setting_hardaware/ym2413.c: 406:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"407
+[; ;setting_hardaware/ym2413.c: 407:     playNote(0, "E", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 92C -> 3 `i _base_instrument -> 2 `i ]
+"408
+[; ;setting_hardaware/ym2413.c: 408:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"409
+[; ;setting_hardaware/ym2413.c: 409:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"410
+[; ;setting_hardaware/ym2413.c: 410:     playNote(0, "A", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 93C -> 3 `i _base_instrument -> 2 `i ]
+"411
+[; ;setting_hardaware/ym2413.c: 411:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"412
+[; ;setting_hardaware/ym2413.c: 412:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"413
+[; ;setting_hardaware/ym2413.c: 413:     playNote(0, "C#", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 94C -> 4 `i _base_instrument -> 2 `i ]
+"414
+[; ;setting_hardaware/ym2413.c: 414:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"415
+[; ;setting_hardaware/ym2413.c: 415:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"416
+[; ;setting_hardaware/ym2413.c: 416:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"417
+[; ;setting_hardaware/ym2413.c: 417:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"419
+[; ;setting_hardaware/ym2413.c: 419:     playNote(1, "D", 5, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 95C -> 5 `i _main_instrument -> 0 `i ]
+"420
+[; ;setting_hardaware/ym2413.c: 420:     playNote(2, "B", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 96C -> 2 `i _base_instrument -> 0 `i ]
+"421
+[; ;setting_hardaware/ym2413.c: 421:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"422
+[; ;setting_hardaware/ym2413.c: 422:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"423
+[; ;setting_hardaware/ym2413.c: 423:     playNote(0, "F#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 97C -> 3 `i _base_instrument -> 2 `i ]
+"424
+[; ;setting_hardaware/ym2413.c: 424:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"425
+[; ;setting_hardaware/ym2413.c: 425:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"426
+[; ;setting_hardaware/ym2413.c: 426:     playNote(0, "B", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 98C -> 3 `i _base_instrument -> 2 `i ]
+"427
+[; ;setting_hardaware/ym2413.c: 427:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"428
+[; ;setting_hardaware/ym2413.c: 428:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"429
+[; ;setting_hardaware/ym2413.c: 429:     playNote(0, "D", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 99C -> 4 `i _base_instrument -> 2 `i ]
+"430
+[; ;setting_hardaware/ym2413.c: 430:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"431
+[; ;setting_hardaware/ym2413.c: 431:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"432
+[; ;setting_hardaware/ym2413.c: 432:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"433
+[; ;setting_hardaware/ym2413.c: 433:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"435
+[; ;setting_hardaware/ym2413.c: 435:     playNote(1, "C#", 5, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 100C -> 5 `i _main_instrument -> 0 `i ]
+"436
+[; ;setting_hardaware/ym2413.c: 436:     playNote(2, "F#", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 101C -> 2 `i _base_instrument -> 0 `i ]
+"437
+[; ;setting_hardaware/ym2413.c: 437:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"438
+[; ;setting_hardaware/ym2413.c: 438:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"439
+[; ;setting_hardaware/ym2413.c: 439:     playNote(0, "C#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 102C -> 3 `i _base_instrument -> 2 `i ]
+"440
+[; ;setting_hardaware/ym2413.c: 440:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"441
+[; ;setting_hardaware/ym2413.c: 441:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"442
+[; ;setting_hardaware/ym2413.c: 442:     playNote(0, "F#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 103C -> 3 `i _base_instrument -> 2 `i ]
+"443
+[; ;setting_hardaware/ym2413.c: 443:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"444
+[; ;setting_hardaware/ym2413.c: 444:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"445
+[; ;setting_hardaware/ym2413.c: 445:     playNote(0, "A", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 104C -> 3 `i _base_instrument -> 2 `i ]
+"446
+[; ;setting_hardaware/ym2413.c: 446:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"447
+[; ;setting_hardaware/ym2413.c: 447:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"448
+[; ;setting_hardaware/ym2413.c: 448:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"449
+[; ;setting_hardaware/ym2413.c: 449:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"451
+[; ;setting_hardaware/ym2413.c: 451:     playNote(1, "B", 4, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 105C -> 4 `i _main_instrument -> 0 `i ]
+"452
+[; ;setting_hardaware/ym2413.c: 452:     playNote(2, "G", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 106C -> 2 `i _base_instrument -> 0 `i ]
+"453
+[; ;setting_hardaware/ym2413.c: 453:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"454
+[; ;setting_hardaware/ym2413.c: 454:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"455
+[; ;setting_hardaware/ym2413.c: 455:     playNote(0, "D", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 107C -> 3 `i _base_instrument -> 2 `i ]
+"456
+[; ;setting_hardaware/ym2413.c: 456:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"457
+[; ;setting_hardaware/ym2413.c: 457:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"458
+[; ;setting_hardaware/ym2413.c: 458:     playNote(0, "G", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 108C -> 3 `i _base_instrument -> 2 `i ]
+"459
+[; ;setting_hardaware/ym2413.c: 459:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"460
+[; ;setting_hardaware/ym2413.c: 460:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"461
+[; ;setting_hardaware/ym2413.c: 461:     playNote(0, "B", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 109C -> 3 `i _base_instrument -> 2 `i ]
+"462
+[; ;setting_hardaware/ym2413.c: 462:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"463
+[; ;setting_hardaware/ym2413.c: 463:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"464
+[; ;setting_hardaware/ym2413.c: 464:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"465
+[; ;setting_hardaware/ym2413.c: 465:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"467
+[; ;setting_hardaware/ym2413.c: 467:     playNote(1, "A", 4, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 110C -> 4 `i _main_instrument -> 0 `i ]
+"468
+[; ;setting_hardaware/ym2413.c: 468:     playNote(2, "D", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 111C -> 2 `i _base_instrument -> 0 `i ]
+"469
+[; ;setting_hardaware/ym2413.c: 469:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"470
+[; ;setting_hardaware/ym2413.c: 470:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"471
+[; ;setting_hardaware/ym2413.c: 471:     playNote(0, "A", 2, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 112C -> 2 `i _base_instrument -> 2 `i ]
+"472
+[; ;setting_hardaware/ym2413.c: 472:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"473
+[; ;setting_hardaware/ym2413.c: 473:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"474
+[; ;setting_hardaware/ym2413.c: 474:     playNote(0, "D", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 113C -> 3 `i _base_instrument -> 2 `i ]
+"475
+[; ;setting_hardaware/ym2413.c: 475:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"476
+[; ;setting_hardaware/ym2413.c: 476:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"477
+[; ;setting_hardaware/ym2413.c: 477:     playNote(0, "F#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 114C -> 3 `i _base_instrument -> 2 `i ]
+"478
+[; ;setting_hardaware/ym2413.c: 478:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"479
+[; ;setting_hardaware/ym2413.c: 479:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"480
+[; ;setting_hardaware/ym2413.c: 480:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"481
+[; ;setting_hardaware/ym2413.c: 481:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"483
+[; ;setting_hardaware/ym2413.c: 483:     playNote(1, "B", 4, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 115C -> 4 `i _main_instrument -> 0 `i ]
+"484
+[; ;setting_hardaware/ym2413.c: 484:     playNote(2, "G", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 116C -> 2 `i _base_instrument -> 0 `i ]
+"485
+[; ;setting_hardaware/ym2413.c: 485:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"486
+[; ;setting_hardaware/ym2413.c: 486:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"487
+[; ;setting_hardaware/ym2413.c: 487:     playNote(0, "D", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 117C -> 3 `i _base_instrument -> 2 `i ]
+"488
+[; ;setting_hardaware/ym2413.c: 488:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"489
+[; ;setting_hardaware/ym2413.c: 489:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"490
+[; ;setting_hardaware/ym2413.c: 490:     playNote(0, "G", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 118C -> 3 `i _base_instrument -> 2 `i ]
+"491
+[; ;setting_hardaware/ym2413.c: 491:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"492
+[; ;setting_hardaware/ym2413.c: 492:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"493
+[; ;setting_hardaware/ym2413.c: 493:     playNote(0, "B", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 119C -> 3 `i _base_instrument -> 2 `i ]
+"494
+[; ;setting_hardaware/ym2413.c: 494:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"495
+[; ;setting_hardaware/ym2413.c: 495:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"496
+[; ;setting_hardaware/ym2413.c: 496:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"497
+[; ;setting_hardaware/ym2413.c: 497:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"499
+[; ;setting_hardaware/ym2413.c: 499:     playNote(1, "C#", 5, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 120C -> 5 `i _main_instrument -> 0 `i ]
+"500
+[; ;setting_hardaware/ym2413.c: 500:     playNote(2, "A", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 121C -> 2 `i _base_instrument -> 0 `i ]
+"501
+[; ;setting_hardaware/ym2413.c: 501:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"502
+[; ;setting_hardaware/ym2413.c: 502:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"503
+[; ;setting_hardaware/ym2413.c: 503:     playNote(0, "E", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 122C -> 3 `i _base_instrument -> 2 `i ]
+"504
+[; ;setting_hardaware/ym2413.c: 504:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"505
+[; ;setting_hardaware/ym2413.c: 505:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"506
+[; ;setting_hardaware/ym2413.c: 506:     playNote(0, "A", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 123C -> 3 `i _base_instrument -> 2 `i ]
+"507
+[; ;setting_hardaware/ym2413.c: 507:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"508
+[; ;setting_hardaware/ym2413.c: 508:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"509
+[; ;setting_hardaware/ym2413.c: 509:     playNote(0, "C#", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 124C -> 4 `i _base_instrument -> 2 `i ]
+"510
+[; ;setting_hardaware/ym2413.c: 510:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"511
+[; ;setting_hardaware/ym2413.c: 511:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"512
+[; ;setting_hardaware/ym2413.c: 512:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"513
+[; ;setting_hardaware/ym2413.c: 513:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"516
+[; ;setting_hardaware/ym2413.c: 516:     playNote(1, "F#", 5, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 125C -> 5 `i _main_instrument -> 0 `i ]
+"517
+[; ;setting_hardaware/ym2413.c: 517:     playNote(3, "D", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 3 `i :s 126C -> 3 `i _base_instrument -> 0 `i ]
+"518
+[; ;setting_hardaware/ym2413.c: 518:     playNote(2, "D", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 127C -> 5 `i _main_instrument -> 2 `i ]
+"519
+[; ;setting_hardaware/ym2413.c: 519:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"520
+[; ;setting_hardaware/ym2413.c: 520:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"521
+[; ;setting_hardaware/ym2413.c: 521:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"522
+[; ;setting_hardaware/ym2413.c: 522:     playNote(0, "A", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 128C -> 3 `i _base_instrument -> 2 `i ]
+"523
+[; ;setting_hardaware/ym2413.c: 523:     playNote(2, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 129C -> 4 `i _main_instrument -> 2 `i ]
+"524
+[; ;setting_hardaware/ym2413.c: 524:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"525
+[; ;setting_hardaware/ym2413.c: 525:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"526
+[; ;setting_hardaware/ym2413.c: 526:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"527
+[; ;setting_hardaware/ym2413.c: 527:     playNote(0, "D", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 130C -> 4 `i _base_instrument -> 2 `i ]
+"528
+[; ;setting_hardaware/ym2413.c: 528:     playNote(2, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 131C -> 4 `i _main_instrument -> 2 `i ]
+"529
+[; ;setting_hardaware/ym2413.c: 529:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"530
+[; ;setting_hardaware/ym2413.c: 530:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"531
+[; ;setting_hardaware/ym2413.c: 531:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"532
+[; ;setting_hardaware/ym2413.c: 532:     playNote(0, "F#", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 132C -> 4 `i _base_instrument -> 2 `i ]
+"533
+[; ;setting_hardaware/ym2413.c: 533:     playNote(2, "D", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 133C -> 5 `i _main_instrument -> 2 `i ]
+"534
+[; ;setting_hardaware/ym2413.c: 534:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"535
+[; ;setting_hardaware/ym2413.c: 535:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"536
+[; ;setting_hardaware/ym2413.c: 536:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"537
+[; ;setting_hardaware/ym2413.c: 537:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"538
+[; ;setting_hardaware/ym2413.c: 538:     stopNote(3, 1);
+[e ( _stopNote (2 , -> 3 `i -> 1 `i ]
+"540
+[; ;setting_hardaware/ym2413.c: 540:     playNote(1, "E", 5, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 134C -> 5 `i _main_instrument -> 0 `i ]
+"541
+[; ;setting_hardaware/ym2413.c: 541:     playNote(3, "A", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 3 `i :s 135C -> 2 `i _base_instrument -> 0 `i ]
+"542
+[; ;setting_hardaware/ym2413.c: 542:     playNote(2, "C#", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 136C -> 5 `i _main_instrument -> 2 `i ]
+"543
+[; ;setting_hardaware/ym2413.c: 543:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"544
+[; ;setting_hardaware/ym2413.c: 544:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"545
+[; ;setting_hardaware/ym2413.c: 545:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"546
+[; ;setting_hardaware/ym2413.c: 546:     playNote(0, "A", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 137C -> 3 `i _base_instrument -> 2 `i ]
+"547
+[; ;setting_hardaware/ym2413.c: 547:     playNote(2, "E", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 138C -> 4 `i _main_instrument -> 2 `i ]
+"548
+[; ;setting_hardaware/ym2413.c: 548:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"549
+[; ;setting_hardaware/ym2413.c: 549:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"550
+[; ;setting_hardaware/ym2413.c: 550:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"551
+[; ;setting_hardaware/ym2413.c: 551:     playNote(0, "C#", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 139C -> 4 `i _base_instrument -> 2 `i ]
+"552
+[; ;setting_hardaware/ym2413.c: 552:     playNote(2, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 140C -> 4 `i _main_instrument -> 2 `i ]
+"553
+[; ;setting_hardaware/ym2413.c: 553:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"554
+[; ;setting_hardaware/ym2413.c: 554:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"555
+[; ;setting_hardaware/ym2413.c: 555:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"556
+[; ;setting_hardaware/ym2413.c: 556:     playNote(0, "E", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 141C -> 4 `i _base_instrument -> 2 `i ]
+"557
+[; ;setting_hardaware/ym2413.c: 557:     playNote(2, "C#", 5, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 142C -> 5 `i _main_instrument -> 2 `i ]
+"558
+[; ;setting_hardaware/ym2413.c: 558:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"559
+[; ;setting_hardaware/ym2413.c: 559:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"560
+[; ;setting_hardaware/ym2413.c: 560:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"561
+[; ;setting_hardaware/ym2413.c: 561:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"562
+[; ;setting_hardaware/ym2413.c: 562:     stopNote(3, 1);
+[e ( _stopNote (2 , -> 3 `i -> 1 `i ]
+"564
+[; ;setting_hardaware/ym2413.c: 564:     playNote(1, "D", 5, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 143C -> 5 `i _main_instrument -> 0 `i ]
+"565
+[; ;setting_hardaware/ym2413.c: 565:     playNote(3, "B", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 3 `i :s 144C -> 2 `i _base_instrument -> 0 `i ]
+"566
+[; ;setting_hardaware/ym2413.c: 566:     playNote(2, "B", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 145C -> 4 `i _main_instrument -> 2 `i ]
+"567
+[; ;setting_hardaware/ym2413.c: 567:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"568
+[; ;setting_hardaware/ym2413.c: 568:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"569
+[; ;setting_hardaware/ym2413.c: 569:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"570
+[; ;setting_hardaware/ym2413.c: 570:     playNote(0, "F#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 146C -> 3 `i _base_instrument -> 2 `i ]
+"571
+[; ;setting_hardaware/ym2413.c: 571:     playNote(2, "D", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 147C -> 4 `i _main_instrument -> 2 `i ]
+"572
+[; ;setting_hardaware/ym2413.c: 572:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"573
+[; ;setting_hardaware/ym2413.c: 573:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"574
+[; ;setting_hardaware/ym2413.c: 574:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"575
+[; ;setting_hardaware/ym2413.c: 575:     playNote(0, "B", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 148C -> 3 `i _base_instrument -> 2 `i ]
+"576
+[; ;setting_hardaware/ym2413.c: 576:     playNote(2, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 149C -> 4 `i _main_instrument -> 2 `i ]
+"577
+[; ;setting_hardaware/ym2413.c: 577:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"578
+[; ;setting_hardaware/ym2413.c: 578:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"579
+[; ;setting_hardaware/ym2413.c: 579:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"580
+[; ;setting_hardaware/ym2413.c: 580:     playNote(0, "D", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 150C -> 4 `i _base_instrument -> 2 `i ]
+"581
+[; ;setting_hardaware/ym2413.c: 581:     playNote(2, "B", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 151C -> 4 `i _main_instrument -> 2 `i ]
+"582
+[; ;setting_hardaware/ym2413.c: 582:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"583
+[; ;setting_hardaware/ym2413.c: 583:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"584
+[; ;setting_hardaware/ym2413.c: 584:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"585
+[; ;setting_hardaware/ym2413.c: 585:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"586
+[; ;setting_hardaware/ym2413.c: 586:     stopNote(3, 1);
+[e ( _stopNote (2 , -> 3 `i -> 1 `i ]
+"588
+[; ;setting_hardaware/ym2413.c: 588:     playNote(1, "C#", 5, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 152C -> 5 `i _main_instrument -> 0 `i ]
+"589
+[; ;setting_hardaware/ym2413.c: 589:     playNote(3, "F#", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 3 `i :s 153C -> 2 `i _base_instrument -> 0 `i ]
+"590
+[; ;setting_hardaware/ym2413.c: 590:     playNote(2, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 154C -> 4 `i _main_instrument -> 2 `i ]
+"591
+[; ;setting_hardaware/ym2413.c: 591:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"592
+[; ;setting_hardaware/ym2413.c: 592:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"593
+[; ;setting_hardaware/ym2413.c: 593:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"594
+[; ;setting_hardaware/ym2413.c: 594:     playNote(0, "F#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 155C -> 3 `i _base_instrument -> 2 `i ]
+"595
+[; ;setting_hardaware/ym2413.c: 595:     playNote(2, "C#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 156C -> 4 `i _main_instrument -> 2 `i ]
+"596
+[; ;setting_hardaware/ym2413.c: 596:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"597
+[; ;setting_hardaware/ym2413.c: 597:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"598
+[; ;setting_hardaware/ym2413.c: 598:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"599
+[; ;setting_hardaware/ym2413.c: 599:     playNote(0, "A", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 157C -> 3 `i _base_instrument -> 2 `i ]
+"600
+[; ;setting_hardaware/ym2413.c: 600:     playNote(2, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 158C -> 4 `i _main_instrument -> 2 `i ]
+"601
+[; ;setting_hardaware/ym2413.c: 601:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"602
+[; ;setting_hardaware/ym2413.c: 602:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"603
+[; ;setting_hardaware/ym2413.c: 603:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"604
+[; ;setting_hardaware/ym2413.c: 604:     playNote(0, "C#", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 159C -> 4 `i _base_instrument -> 2 `i ]
+"605
+[; ;setting_hardaware/ym2413.c: 605:     playNote(2, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 160C -> 4 `i _main_instrument -> 2 `i ]
+"606
+[; ;setting_hardaware/ym2413.c: 606:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"607
+[; ;setting_hardaware/ym2413.c: 607:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"608
+[; ;setting_hardaware/ym2413.c: 608:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"609
+[; ;setting_hardaware/ym2413.c: 609:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"610
+[; ;setting_hardaware/ym2413.c: 610:     stopNote(3, 1);
+[e ( _stopNote (2 , -> 3 `i -> 1 `i ]
+"612
+[; ;setting_hardaware/ym2413.c: 612:     playNote(1, "B", 4, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 161C -> 4 `i _main_instrument -> 0 `i ]
+"613
+[; ;setting_hardaware/ym2413.c: 613:     playNote(3, "G", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 3 `i :s 162C -> 2 `i _base_instrument -> 0 `i ]
+"614
+[; ;setting_hardaware/ym2413.c: 614:     playNote(2, "G", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 163C -> 4 `i _main_instrument -> 2 `i ]
+"615
+[; ;setting_hardaware/ym2413.c: 615:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"616
+[; ;setting_hardaware/ym2413.c: 616:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"617
+[; ;setting_hardaware/ym2413.c: 617:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"618
+[; ;setting_hardaware/ym2413.c: 618:     playNote(0, "D", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 164C -> 3 `i _base_instrument -> 2 `i ]
+"619
+[; ;setting_hardaware/ym2413.c: 619:     playNote(2, "B", 3, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 165C -> 3 `i _main_instrument -> 2 `i ]
+"620
+[; ;setting_hardaware/ym2413.c: 620:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"621
+[; ;setting_hardaware/ym2413.c: 621:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"622
+[; ;setting_hardaware/ym2413.c: 622:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"623
+[; ;setting_hardaware/ym2413.c: 623:     playNote(0, "G", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 166C -> 3 `i _base_instrument -> 2 `i ]
+"624
+[; ;setting_hardaware/ym2413.c: 624:     playNote(2, "D", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 167C -> 4 `i _main_instrument -> 2 `i ]
+"625
+[; ;setting_hardaware/ym2413.c: 625:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"626
+[; ;setting_hardaware/ym2413.c: 626:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"627
+[; ;setting_hardaware/ym2413.c: 627:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"628
+[; ;setting_hardaware/ym2413.c: 628:     playNote(0, "B", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 168C -> 3 `i _base_instrument -> 2 `i ]
+"629
+[; ;setting_hardaware/ym2413.c: 629:     playNote(2, "G", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 169C -> 4 `i _main_instrument -> 2 `i ]
+"630
+[; ;setting_hardaware/ym2413.c: 630:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"631
+[; ;setting_hardaware/ym2413.c: 631:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"632
+[; ;setting_hardaware/ym2413.c: 632:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"633
+[; ;setting_hardaware/ym2413.c: 633:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"634
+[; ;setting_hardaware/ym2413.c: 634:     stopNote(3, 1);
+[e ( _stopNote (2 , -> 3 `i -> 1 `i ]
+"636
+[; ;setting_hardaware/ym2413.c: 636:     playNote(1, "A", 4, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 170C -> 4 `i _main_instrument -> 0 `i ]
+"637
+[; ;setting_hardaware/ym2413.c: 637:     playNote(3, "D", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 3 `i :s 171C -> 2 `i _base_instrument -> 0 `i ]
+"638
+[; ;setting_hardaware/ym2413.c: 638:     playNote(2, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 172C -> 4 `i _main_instrument -> 2 `i ]
+"639
+[; ;setting_hardaware/ym2413.c: 639:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"640
+[; ;setting_hardaware/ym2413.c: 640:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"641
+[; ;setting_hardaware/ym2413.c: 641:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"642
+[; ;setting_hardaware/ym2413.c: 642:     playNote(0, "D", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 173C -> 3 `i _base_instrument -> 2 `i ]
+"643
+[; ;setting_hardaware/ym2413.c: 643:     playNote(2, "A", 3, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 174C -> 3 `i _main_instrument -> 2 `i ]
+"644
+[; ;setting_hardaware/ym2413.c: 644:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"645
+[; ;setting_hardaware/ym2413.c: 645:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"646
+[; ;setting_hardaware/ym2413.c: 646:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"647
+[; ;setting_hardaware/ym2413.c: 647:     playNote(0, "F#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 175C -> 3 `i _base_instrument -> 2 `i ]
+"648
+[; ;setting_hardaware/ym2413.c: 648:     playNote(2, "D", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 176C -> 4 `i _main_instrument -> 2 `i ]
+"649
+[; ;setting_hardaware/ym2413.c: 649:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"650
+[; ;setting_hardaware/ym2413.c: 650:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"651
+[; ;setting_hardaware/ym2413.c: 651:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"652
+[; ;setting_hardaware/ym2413.c: 652:     playNote(0, "A", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 177C -> 3 `i _base_instrument -> 2 `i ]
+"653
+[; ;setting_hardaware/ym2413.c: 653:     playNote(2, "F#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 178C -> 4 `i _main_instrument -> 2 `i ]
+"654
+[; ;setting_hardaware/ym2413.c: 654:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"655
+[; ;setting_hardaware/ym2413.c: 655:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"656
+[; ;setting_hardaware/ym2413.c: 656:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"657
+[; ;setting_hardaware/ym2413.c: 657:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"658
+[; ;setting_hardaware/ym2413.c: 658:     stopNote(3, 1);
+[e ( _stopNote (2 , -> 3 `i -> 1 `i ]
+"660
+[; ;setting_hardaware/ym2413.c: 660:     playNote(1, "B", 4, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 179C -> 4 `i _main_instrument -> 0 `i ]
+"661
+[; ;setting_hardaware/ym2413.c: 661:     playNote(3, "G", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 3 `i :s 180C -> 2 `i _base_instrument -> 0 `i ]
+"662
+[; ;setting_hardaware/ym2413.c: 662:     playNote(2, "G", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 181C -> 4 `i _main_instrument -> 2 `i ]
+"663
+[; ;setting_hardaware/ym2413.c: 663:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"664
+[; ;setting_hardaware/ym2413.c: 664:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"665
+[; ;setting_hardaware/ym2413.c: 665:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"666
+[; ;setting_hardaware/ym2413.c: 666:     playNote(0, "D", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 182C -> 3 `i _base_instrument -> 2 `i ]
+"667
+[; ;setting_hardaware/ym2413.c: 667:     playNote(2, "B", 3, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 183C -> 3 `i _main_instrument -> 2 `i ]
+"668
+[; ;setting_hardaware/ym2413.c: 668:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"669
+[; ;setting_hardaware/ym2413.c: 669:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"670
+[; ;setting_hardaware/ym2413.c: 670:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"671
+[; ;setting_hardaware/ym2413.c: 671:     playNote(0, "G", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 184C -> 3 `i _base_instrument -> 2 `i ]
+"672
+[; ;setting_hardaware/ym2413.c: 672:     playNote(2, "D", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 185C -> 4 `i _main_instrument -> 2 `i ]
+"673
+[; ;setting_hardaware/ym2413.c: 673:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"674
+[; ;setting_hardaware/ym2413.c: 674:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"675
+[; ;setting_hardaware/ym2413.c: 675:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"676
+[; ;setting_hardaware/ym2413.c: 676:     playNote(0, "B", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 186C -> 3 `i _base_instrument -> 2 `i ]
+"677
+[; ;setting_hardaware/ym2413.c: 677:     playNote(2, "G", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 187C -> 4 `i _main_instrument -> 2 `i ]
+"678
+[; ;setting_hardaware/ym2413.c: 678:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"679
+[; ;setting_hardaware/ym2413.c: 679:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"680
+[; ;setting_hardaware/ym2413.c: 680:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"681
+[; ;setting_hardaware/ym2413.c: 681:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"682
+[; ;setting_hardaware/ym2413.c: 682:     stopNote(3, 1);
+[e ( _stopNote (2 , -> 3 `i -> 1 `i ]
+"684
+[; ;setting_hardaware/ym2413.c: 684:     playNote(1, "C#", 5, main_instrument, 0);
+[e ( _playNote (4 , , , , -> 1 `i :s 188C -> 5 `i _main_instrument -> 0 `i ]
+"685
+[; ;setting_hardaware/ym2413.c: 685:     playNote(3, "A", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 3 `i :s 189C -> 2 `i _base_instrument -> 0 `i ]
+"686
+[; ;setting_hardaware/ym2413.c: 686:     playNote(2, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 190C -> 4 `i _main_instrument -> 2 `i ]
+"687
+[; ;setting_hardaware/ym2413.c: 687:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"688
+[; ;setting_hardaware/ym2413.c: 688:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"689
+[; ;setting_hardaware/ym2413.c: 689:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"690
+[; ;setting_hardaware/ym2413.c: 690:     playNote(0, "E", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 191C -> 3 `i _base_instrument -> 2 `i ]
+"691
+[; ;setting_hardaware/ym2413.c: 691:     playNote(2, "C#", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 192C -> 4 `i _main_instrument -> 2 `i ]
+"692
+[; ;setting_hardaware/ym2413.c: 692:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"693
+[; ;setting_hardaware/ym2413.c: 693:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"694
+[; ;setting_hardaware/ym2413.c: 694:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"695
+[; ;setting_hardaware/ym2413.c: 695:     playNote(0, "A", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 193C -> 3 `i _base_instrument -> 2 `i ]
+"696
+[; ;setting_hardaware/ym2413.c: 696:     playNote(2, "E", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 194C -> 4 `i _main_instrument -> 2 `i ]
+"697
+[; ;setting_hardaware/ym2413.c: 697:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"698
+[; ;setting_hardaware/ym2413.c: 698:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"699
+[; ;setting_hardaware/ym2413.c: 699:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"700
+[; ;setting_hardaware/ym2413.c: 700:     playNote(0, "C#", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 195C -> 4 `i _base_instrument -> 2 `i ]
+"701
+[; ;setting_hardaware/ym2413.c: 701:     playNote(2, "A", 4, main_instrument, 2);
+[e ( _playNote (4 , , , , -> 2 `i :s 196C -> 4 `i _main_instrument -> 2 `i ]
+"702
+[; ;setting_hardaware/ym2413.c: 702:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"703
+[; ;setting_hardaware/ym2413.c: 703:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"704
+[; ;setting_hardaware/ym2413.c: 704:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"705
+[; ;setting_hardaware/ym2413.c: 705:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"706
+[; ;setting_hardaware/ym2413.c: 706:     stopNote(3, 1);
+[e ( _stopNote (2 , -> 3 `i -> 1 `i ]
+"709
+[; ;setting_hardaware/ym2413.c: 709:     playNote(1, "D", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 197C -> 5 `i _main_instrument -> 1 `i ]
+"710
+[; ;setting_hardaware/ym2413.c: 710:     playNote(2, "D", 3, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 198C -> 3 `i _base_instrument -> 0 `i ]
+"711
+[; ;setting_hardaware/ym2413.c: 711:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"712
+[; ;setting_hardaware/ym2413.c: 712:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"713
+[; ;setting_hardaware/ym2413.c: 713:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"714
+[; ;setting_hardaware/ym2413.c: 714:     playNote(1, "C#", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 199C -> 5 `i _main_instrument -> 1 `i ]
+"715
+[; ;setting_hardaware/ym2413.c: 715:     playNote(0, "A", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 200C -> 3 `i _base_instrument -> 2 `i ]
+"716
+[; ;setting_hardaware/ym2413.c: 716:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"717
+[; ;setting_hardaware/ym2413.c: 717:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"718
+[; ;setting_hardaware/ym2413.c: 718:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"719
+[; ;setting_hardaware/ym2413.c: 719:     playNote(1, "D", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 201C -> 5 `i _main_instrument -> 1 `i ]
+"720
+[; ;setting_hardaware/ym2413.c: 720:     playNote(0, "F#", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 202C -> 4 `i _base_instrument -> 2 `i ]
+"721
+[; ;setting_hardaware/ym2413.c: 721:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"722
+[; ;setting_hardaware/ym2413.c: 722:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"723
+[; ;setting_hardaware/ym2413.c: 723:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"724
+[; ;setting_hardaware/ym2413.c: 724:     playNote(1, "D", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 203C -> 4 `i _main_instrument -> 1 `i ]
+"725
+[; ;setting_hardaware/ym2413.c: 725:     playNote(0, "D", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 204C -> 4 `i _base_instrument -> 2 `i ]
+"726
+[; ;setting_hardaware/ym2413.c: 726:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"727
+[; ;setting_hardaware/ym2413.c: 727:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"728
+[; ;setting_hardaware/ym2413.c: 728:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"729
+[; ;setting_hardaware/ym2413.c: 729:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"731
+[; ;setting_hardaware/ym2413.c: 731:     playNote(1, "C#", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 205C -> 4 `i _main_instrument -> 1 `i ]
+"732
+[; ;setting_hardaware/ym2413.c: 732:     playNote(2, "A", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 206C -> 2 `i _base_instrument -> 0 `i ]
+"733
+[; ;setting_hardaware/ym2413.c: 733:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"734
+[; ;setting_hardaware/ym2413.c: 734:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"735
+[; ;setting_hardaware/ym2413.c: 735:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"736
+[; ;setting_hardaware/ym2413.c: 736:     playNote(1, "A", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 207C -> 4 `i _main_instrument -> 1 `i ]
+"737
+[; ;setting_hardaware/ym2413.c: 737:     playNote(0, "E", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 208C -> 3 `i _base_instrument -> 2 `i ]
+"738
+[; ;setting_hardaware/ym2413.c: 738:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"739
+[; ;setting_hardaware/ym2413.c: 739:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"740
+[; ;setting_hardaware/ym2413.c: 740:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"741
+[; ;setting_hardaware/ym2413.c: 741:     playNote(1, "E", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 209C -> 4 `i _main_instrument -> 1 `i ]
+"742
+[; ;setting_hardaware/ym2413.c: 742:     playNote(0, "C#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 210C -> 3 `i _base_instrument -> 2 `i ]
+"743
+[; ;setting_hardaware/ym2413.c: 743:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"744
+[; ;setting_hardaware/ym2413.c: 744:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"745
+[; ;setting_hardaware/ym2413.c: 745:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"746
+[; ;setting_hardaware/ym2413.c: 746:     playNote(1, "F#", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 211C -> 4 `i _main_instrument -> 1 `i ]
+"747
+[; ;setting_hardaware/ym2413.c: 747:     playNote(0, "E", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 212C -> 4 `i _base_instrument -> 2 `i ]
+"748
+[; ;setting_hardaware/ym2413.c: 748:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"749
+[; ;setting_hardaware/ym2413.c: 749:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"750
+[; ;setting_hardaware/ym2413.c: 750:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"751
+[; ;setting_hardaware/ym2413.c: 751:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"753
+[; ;setting_hardaware/ym2413.c: 753:     playNote(1, "D", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 213C -> 4 `i _main_instrument -> 1 `i ]
+"754
+[; ;setting_hardaware/ym2413.c: 754:     playNote(2, "B", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 214C -> 2 `i _base_instrument -> 0 `i ]
+"755
+[; ;setting_hardaware/ym2413.c: 755:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"756
+[; ;setting_hardaware/ym2413.c: 756:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"757
+[; ;setting_hardaware/ym2413.c: 757:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"758
+[; ;setting_hardaware/ym2413.c: 758:     playNote(1, "D", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 215C -> 5 `i _main_instrument -> 1 `i ]
+"759
+[; ;setting_hardaware/ym2413.c: 759:     playNote(0, "F#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 216C -> 3 `i _base_instrument -> 2 `i ]
+"760
+[; ;setting_hardaware/ym2413.c: 760:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"761
+[; ;setting_hardaware/ym2413.c: 761:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"762
+[; ;setting_hardaware/ym2413.c: 762:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"763
+[; ;setting_hardaware/ym2413.c: 763:     playNote(1, "C#", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 217C -> 5 `i _main_instrument -> 1 `i ]
+"764
+[; ;setting_hardaware/ym2413.c: 764:     playNote(0, "D", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 218C -> 4 `i _base_instrument -> 2 `i ]
+"765
+[; ;setting_hardaware/ym2413.c: 765:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"766
+[; ;setting_hardaware/ym2413.c: 766:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"767
+[; ;setting_hardaware/ym2413.c: 767:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"768
+[; ;setting_hardaware/ym2413.c: 768:     playNote(1, "B", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 219C -> 4 `i _main_instrument -> 1 `i ]
+"769
+[; ;setting_hardaware/ym2413.c: 769:     playNote(0, "F#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 220C -> 3 `i _base_instrument -> 2 `i ]
+"770
+[; ;setting_hardaware/ym2413.c: 770:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"771
+[; ;setting_hardaware/ym2413.c: 771:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"772
+[; ;setting_hardaware/ym2413.c: 772:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"773
+[; ;setting_hardaware/ym2413.c: 773:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"775
+[; ;setting_hardaware/ym2413.c: 775:     playNote(1, "C#", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 221C -> 5 `i _main_instrument -> 1 `i ]
+"776
+[; ;setting_hardaware/ym2413.c: 776:     playNote(2, "A", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 222C -> 2 `i _base_instrument -> 0 `i ]
+"777
+[; ;setting_hardaware/ym2413.c: 777:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"778
+[; ;setting_hardaware/ym2413.c: 778:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"779
+[; ;setting_hardaware/ym2413.c: 779:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"780
+[; ;setting_hardaware/ym2413.c: 780:     playNote(1, "F#", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 223C -> 5 `i _main_instrument -> 1 `i ]
+"781
+[; ;setting_hardaware/ym2413.c: 781:     playNote(0, "F#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 224C -> 3 `i _base_instrument -> 2 `i ]
+"782
+[; ;setting_hardaware/ym2413.c: 782:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"783
+[; ;setting_hardaware/ym2413.c: 783:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"784
+[; ;setting_hardaware/ym2413.c: 784:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"785
+[; ;setting_hardaware/ym2413.c: 785:     playNote(1, "A", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 225C -> 5 `i _main_instrument -> 1 `i ]
+"786
+[; ;setting_hardaware/ym2413.c: 786:     playNote(0, "C#", 4, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 226C -> 4 `i _base_instrument -> 2 `i ]
+"787
+[; ;setting_hardaware/ym2413.c: 787:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"788
+[; ;setting_hardaware/ym2413.c: 788:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"789
+[; ;setting_hardaware/ym2413.c: 789:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"790
+[; ;setting_hardaware/ym2413.c: 790:     playNote(1, "B", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 227C -> 5 `i _main_instrument -> 1 `i ]
+"791
+[; ;setting_hardaware/ym2413.c: 791:     playNote(0, "F#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 228C -> 3 `i _base_instrument -> 2 `i ]
+"792
+[; ;setting_hardaware/ym2413.c: 792:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"793
+[; ;setting_hardaware/ym2413.c: 793:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"794
+[; ;setting_hardaware/ym2413.c: 794:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"795
+[; ;setting_hardaware/ym2413.c: 795:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"797
+[; ;setting_hardaware/ym2413.c: 797:     playNote(1, "G", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 229C -> 5 `i _main_instrument -> 1 `i ]
+"798
+[; ;setting_hardaware/ym2413.c: 798:     playNote(3, "B", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 3 `i :s 230C -> 4 `i _main_instrument -> 1 `i ]
+"799
+[; ;setting_hardaware/ym2413.c: 799:     playNote(2, "G", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 231C -> 2 `i _base_instrument -> 0 `i ]
+"800
+[; ;setting_hardaware/ym2413.c: 800:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"801
+[; ;setting_hardaware/ym2413.c: 801:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"802
+[; ;setting_hardaware/ym2413.c: 802:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"803
+[; ;setting_hardaware/ym2413.c: 803:     playNote(1, "F#", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 232C -> 5 `i _main_instrument -> 1 `i ]
+"804
+[; ;setting_hardaware/ym2413.c: 804:     playNote(0, "D", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 233C -> 3 `i _base_instrument -> 2 `i ]
+"805
+[; ;setting_hardaware/ym2413.c: 805:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"806
+[; ;setting_hardaware/ym2413.c: 806:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"807
+[; ;setting_hardaware/ym2413.c: 807:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"808
+[; ;setting_hardaware/ym2413.c: 808:     playNote(1, "E", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 234C -> 5 `i _main_instrument -> 1 `i ]
+"809
+[; ;setting_hardaware/ym2413.c: 809:     playNote(0, "B", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 235C -> 3 `i _base_instrument -> 2 `i ]
+"810
+[; ;setting_hardaware/ym2413.c: 810:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"811
+[; ;setting_hardaware/ym2413.c: 811:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"812
+[; ;setting_hardaware/ym2413.c: 812:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"813
+[; ;setting_hardaware/ym2413.c: 813:     playNote(1, "G", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 236C -> 5 `i _main_instrument -> 1 `i ]
+"814
+[; ;setting_hardaware/ym2413.c: 814:     playNote(0, "D", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 237C -> 3 `i _base_instrument -> 2 `i ]
+"815
+[; ;setting_hardaware/ym2413.c: 815:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"816
+[; ;setting_hardaware/ym2413.c: 816:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"817
+[; ;setting_hardaware/ym2413.c: 817:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"818
+[; ;setting_hardaware/ym2413.c: 818:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"819
+[; ;setting_hardaware/ym2413.c: 819:     stopNote(3, 1);
+[e ( _stopNote (2 , -> 3 `i -> 1 `i ]
+"821
+[; ;setting_hardaware/ym2413.c: 821:     playNote(1, "F#", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 238C -> 5 `i _main_instrument -> 1 `i ]
+"822
+[; ;setting_hardaware/ym2413.c: 822:     playNote(3, "A", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 3 `i :s 239C -> 4 `i _main_instrument -> 1 `i ]
+"823
+[; ;setting_hardaware/ym2413.c: 823:     playNote(2, "D", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 240C -> 2 `i _base_instrument -> 0 `i ]
+"824
+[; ;setting_hardaware/ym2413.c: 824:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"825
+[; ;setting_hardaware/ym2413.c: 825:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"826
+[; ;setting_hardaware/ym2413.c: 826:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"827
+[; ;setting_hardaware/ym2413.c: 827:     playNote(1, "E", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 241C -> 5 `i _main_instrument -> 1 `i ]
+"828
+[; ;setting_hardaware/ym2413.c: 828:     playNote(0, "A", 2, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 242C -> 2 `i _base_instrument -> 2 `i ]
+"829
+[; ;setting_hardaware/ym2413.c: 829:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"830
+[; ;setting_hardaware/ym2413.c: 830:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"831
+[; ;setting_hardaware/ym2413.c: 831:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"832
+[; ;setting_hardaware/ym2413.c: 832:     playNote(1, "D", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 243C -> 5 `i _main_instrument -> 1 `i ]
+"833
+[; ;setting_hardaware/ym2413.c: 833:     playNote(0, "F#", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 244C -> 3 `i _base_instrument -> 2 `i ]
+"834
+[; ;setting_hardaware/ym2413.c: 834:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"835
+[; ;setting_hardaware/ym2413.c: 835:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"836
+[; ;setting_hardaware/ym2413.c: 836:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"837
+[; ;setting_hardaware/ym2413.c: 837:     playNote(1, "C#", 5, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 245C -> 5 `i _main_instrument -> 1 `i ]
+"838
+[; ;setting_hardaware/ym2413.c: 838:     playNote(0, "A", 2, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 246C -> 2 `i _base_instrument -> 2 `i ]
+"839
+[; ;setting_hardaware/ym2413.c: 839:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"840
+[; ;setting_hardaware/ym2413.c: 840:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"841
+[; ;setting_hardaware/ym2413.c: 841:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"842
+[; ;setting_hardaware/ym2413.c: 842:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"843
+[; ;setting_hardaware/ym2413.c: 843:     stopNote(3, 1);
+[e ( _stopNote (2 , -> 3 `i -> 1 `i ]
+"845
+[; ;setting_hardaware/ym2413.c: 845:     playNote(1, "B", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 247C -> 4 `i _main_instrument -> 1 `i ]
+"846
+[; ;setting_hardaware/ym2413.c: 846:     playNote(3, "D", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 3 `i :s 248C -> 4 `i _main_instrument -> 1 `i ]
+"847
+[; ;setting_hardaware/ym2413.c: 847:     playNote(2, "G", 2, base_instrument, 0);
+[e ( _playNote (4 , , , , -> 2 `i :s 249C -> 2 `i _base_instrument -> 0 `i ]
+"848
+[; ;setting_hardaware/ym2413.c: 848:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"849
+[; ;setting_hardaware/ym2413.c: 849:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"850
+[; ;setting_hardaware/ym2413.c: 850:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"851
+[; ;setting_hardaware/ym2413.c: 851:     playNote(1, "A", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 250C -> 4 `i _main_instrument -> 1 `i ]
+"852
+[; ;setting_hardaware/ym2413.c: 852:     playNote(0, "D", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 251C -> 3 `i _base_instrument -> 2 `i ]
+"853
+[; ;setting_hardaware/ym2413.c: 853:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"854
+[; ;setting_hardaware/ym2413.c: 854:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"855
+[; ;setting_hardaware/ym2413.c: 855:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"856
+[; ;setting_hardaware/ym2413.c: 856:     playNote(1, "G", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 252C -> 4 `i _main_instrument -> 1 `i ]
+"857
+[; ;setting_hardaware/ym2413.c: 857:     playNote(0, "B", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 253C -> 3 `i _base_instrument -> 2 `i ]
+"858
+[; ;setting_hardaware/ym2413.c: 858:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"859
+[; ;setting_hardaware/ym2413.c: 859:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"860
+[; ;setting_hardaware/ym2413.c: 860:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"861
+[; ;setting_hardaware/ym2413.c: 861:     playNote(1, "F#", 4, main_instrument, 1);
+[e ( _playNote (4 , , , , -> 1 `i :s 254C -> 4 `i _main_instrument -> 1 `i ]
+"862
+[; ;setting_hardaware/ym2413.c: 862:     playNote(0, "D", 3, base_instrument, 2);
+[e ( _playNote (4 , , , , -> 0 `i :s 255C -> 3 `i _base_instrument -> 2 `i ]
+"863
+[; ;setting_hardaware/ym2413.c: 863:     delay_ms(time/4);
+[e ( _delay_ms (1 -> / _time -> -> 4 `i `f `i ]
+"864
+[; ;setting_hardaware/ym2413.c: 864:     stopNote(0, 1);
+[e ( _stopNote (2 , -> 0 `i -> 1 `i ]
+"865
+[; ;setting_hardaware/ym2413.c: 865:     stopNote(1, 1);
+[e ( _stopNote (2 , -> 1 `i -> 1 `i ]
+"866
+[; ;setting_hardaware/ym2413.c: 866:     stopNote(2, 1);
+[e ( _stopNote (2 , -> 2 `i -> 1 `i ]
+"867
+[; ;setting_hardaware/ym2413.c: 867:     stopNote(3, 1);
+[e ( _stopNote (2 , -> 3 `i -> 1 `i ]
+"891
+[; ;setting_hardaware/ym2413.c: 891: }
+[e :UE 297 ]
+}
+[a 8C 71 0 ]
+[a 29C 71 0 ]
+[a 31C 71 0 ]
+[a 37C 71 0 ]
+[a 39C 71 0 ]
+[a 65C 71 0 ]
+[a 66C 71 0 ]
+[a 69C 71 0 ]
+[a 75C 71 0 ]
+[a 76C 71 0 ]
+[a 79C 71 0 ]
+[a 106C 71 0 ]
+[a 108C 71 0 ]
+[a 116C 71 0 ]
+[a 118C 71 0 ]
+[a 162C 71 0 ]
+[a 163C 71 0 ]
+[a 166C 71 0 ]
+[a 169C 71 0 ]
+[a 180C 71 0 ]
+[a 181C 71 0 ]
+[a 184C 71 0 ]
+[a 187C 71 0 ]
+[a 229C 71 0 ]
+[a 231C 71 0 ]
+[a 236C 71 0 ]
+[a 249C 71 0 ]
+[a 252C 71 0 ]
+[a 6C 70 0 ]
+[a 5C 69 0 ]
+[a 18C 69 0 ]
+[a 42C 69 0 ]
+[a 52C 69 0 ]
+[a 83C 69 0 ]
+[a 90C 69 0 ]
+[a 92C 69 0 ]
+[a 122C 69 0 ]
+[a 134C 69 0 ]
+[a 138C 69 0 ]
+[a 141C 69 0 ]
+[a 191C 69 0 ]
+[a 194C 69 0 ]
+[a 208C 69 0 ]
+[a 209C 69 0 ]
+[a 212C 69 0 ]
+[a 234C 69 0 ]
+[a 241C 69 0 ]
+[a 3C 68 0 ]
+[a 13C 68 0 ]
+[a 15C 68 0 ]
+[a 24C 68 0 ]
+[a 30C 68 0 ]
+[a 33C 68 0 ]
+[a 34C 68 0 ]
+[a 38C 68 0 ]
+[a 45C 68 0 ]
+[a 46C 68 0 ]
+[a 49C 68 0 ]
+[a 57C 68 0 ]
+[a 68C 68 0 ]
+[a 70C 68 0 ]
+[a 71C 68 0 ]
+[a 73C 68 0 ]
+[a 78C 68 0 ]
+[a 86C 68 0 ]
+[a 88C 68 0 ]
+[a 95C 68 0 ]
+[a 99C 68 0 ]
+[a 107C 68 0 ]
+[a 111C 68 0 ]
+[a 113C 68 0 ]
+[a 117C 68 0 ]
+[a 126C 68 0 ]
+[a 127C 68 0 ]
+[a 130C 68 0 ]
+[a 133C 68 0 ]
+[a 143C 68 0 ]
+[a 147C 68 0 ]
+[a 150C 68 0 ]
+[a 164C 68 0 ]
+[a 167C 68 0 ]
+[a 171C 68 0 ]
+[a 173C 68 0 ]
+[a 176C 68 0 ]
+[a 182C 68 0 ]
+[a 185C 68 0 ]
+[a 197C 68 0 ]
+[a 198C 68 0 ]
+[a 201C 68 0 ]
+[a 203C 68 0 ]
+[a 204C 68 0 ]
+[a 213C 68 0 ]
+[a 215C 68 0 ]
+[a 218C 68 0 ]
+[a 233C 68 0 ]
+[a 237C 68 0 ]
+[a 240C 68 0 ]
+[a 243C 68 0 ]
+[a 248C 68 0 ]
+[a 251C 68 0 ]
+[a 255C 68 0 ]
+[a 1C 67 0 ]
+[a 12C 66 0 ]
+[a 21C 66 0 ]
+[a 23C 66 0 ]
+[a 32C 66 0 ]
+[a 40C 66 0 ]
+[a 55C 66 0 ]
+[a 56C 66 0 ]
+[a 59C 66 0 ]
+[a 67C 66 0 ]
+[a 77C 66 0 ]
+[a 96C 66 0 ]
+[a 98C 66 0 ]
+[a 105C 66 0 ]
+[a 109C 66 0 ]
+[a 115C 66 0 ]
+[a 119C 66 0 ]
+[a 144C 66 0 ]
+[a 145C 66 0 ]
+[a 148C 66 0 ]
+[a 151C 66 0 ]
+[a 161C 66 0 ]
+[a 165C 66 0 ]
+[a 168C 66 0 ]
+[a 179C 66 0 ]
+[a 183C 66 0 ]
+[a 186C 66 0 ]
+[a 214C 66 0 ]
+[a 219C 66 0 ]
+[a 227C 66 0 ]
+[a 230C 66 0 ]
+[a 235C 66 0 ]
+[a 247C 66 0 ]
+[a 253C 66 0 ]
+[a 10C 65 0 ]
+[a 14C 65 0 ]
+[a 17C 65 0 ]
+[a 19C 65 0 ]
+[a 27C 65 0 ]
+[a 36C 65 0 ]
+[a 41C 65 0 ]
+[a 43C 65 0 ]
+[a 48C 65 0 ]
+[a 50C 65 0 ]
+[a 51C 65 0 ]
+[a 53C 65 0 ]
+[a 64C 65 0 ]
+[a 72C 65 0 ]
+[a 80C 65 0 ]
+[a 81C 65 0 ]
+[a 84C 65 0 ]
+[a 87C 65 0 ]
+[a 91C 65 0 ]
+[a 93C 65 0 ]
+[a 104C 65 0 ]
+[a 110C 65 0 ]
+[a 112C 65 0 ]
+[a 121C 65 0 ]
+[a 123C 65 0 ]
+[a 128C 65 0 ]
+[a 131C 65 0 ]
+[a 135C 65 0 ]
+[a 137C 65 0 ]
+[a 140C 65 0 ]
+[a 154C 65 0 ]
+[a 157C 65 0 ]
+[a 160C 65 0 ]
+[a 170C 65 0 ]
+[a 174C 65 0 ]
+[a 177C 65 0 ]
+[a 189C 65 0 ]
+[a 190C 65 0 ]
+[a 193C 65 0 ]
+[a 196C 65 0 ]
+[a 200C 65 0 ]
+[a 206C 65 0 ]
+[a 207C 65 0 ]
+[a 222C 65 0 ]
+[a 225C 65 0 ]
+[a 239C 65 0 ]
+[a 242C 65 0 ]
+[a 246C 65 0 ]
+[a 250C 65 0 ]
+[a 9C 71 35 0 ]
+[a 7C 70 35 0 ]
+[a 16C 70 35 0 ]
+[a 22C 70 35 0 ]
+[a 25C 70 35 0 ]
+[a 26C 70 35 0 ]
+[a 35C 70 35 0 ]
+[a 47C 70 35 0 ]
+[a 58C 70 35 0 ]
+[a 60C 70 35 0 ]
+[a 61C 70 35 0 ]
+[a 63C 70 35 0 ]
+[a 74C 70 35 0 ]
+[a 85C 70 35 0 ]
+[a 89C 70 35 0 ]
+[a 97C 70 35 0 ]
+[a 101C 70 35 0 ]
+[a 103C 70 35 0 ]
+[a 114C 70 35 0 ]
+[a 125C 70 35 0 ]
+[a 129C 70 35 0 ]
+[a 132C 70 35 0 ]
+[a 146C 70 35 0 ]
+[a 149C 70 35 0 ]
+[a 153C 70 35 0 ]
+[a 155C 70 35 0 ]
+[a 158C 70 35 0 ]
+[a 172C 70 35 0 ]
+[a 175C 70 35 0 ]
+[a 178C 70 35 0 ]
+[a 202C 70 35 0 ]
+[a 211C 70 35 0 ]
+[a 216C 70 35 0 ]
+[a 220C 70 35 0 ]
+[a 223C 70 35 0 ]
+[a 224C 70 35 0 ]
+[a 228C 70 35 0 ]
+[a 232C 70 35 0 ]
+[a 238C 70 35 0 ]
+[a 244C 70 35 0 ]
+[a 254C 70 35 0 ]
+[a 4C 68 35 0 ]
+[a 2C 67 35 0 ]
+[a 20C 67 35 0 ]
+[a 28C 67 35 0 ]
+[a 44C 67 35 0 ]
+[a 54C 67 35 0 ]
+[a 62C 67 35 0 ]
+[a 82C 67 35 0 ]
+[a 94C 67 35 0 ]
+[a 100C 67 35 0 ]
+[a 102C 67 35 0 ]
+[a 120C 67 35 0 ]
+[a 124C 67 35 0 ]
+[a 136C 67 35 0 ]
+[a 139C 67 35 0 ]
+[a 142C 67 35 0 ]
+[a 152C 67 35 0 ]
+[a 156C 67 35 0 ]
+[a 159C 67 35 0 ]
+[a 188C 67 35 0 ]
+[a 192C 67 35 0 ]
+[a 195C 67 35 0 ]
+[a 199C 67 35 0 ]
+[a 205C 67 35 0 ]
+[a 210C 67 35 0 ]
+[a 217C 67 35 0 ]
+[a 221C 67 35 0 ]
+[a 226C 67 35 0 ]
+[a 245C 67 35 0 ]
+[a 11C 65 35 0 ]
